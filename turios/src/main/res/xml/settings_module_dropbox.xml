@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/status_category"
+        android:shouldDisableView="false"
+        android:title="@string/module_status" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_module_activated_dropbox"
+            android:switchTextOff="@string/deactive"
+            android:switchTextOn="@string/active" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_module_activated_dropbox"
+            android:enabled="false"
+            android:key="@string/status_checkbox"
+            android:selectable="false"
+            android:summary="@string/please_wait"
+            android:title="@string/checking" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_settings" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_module_activated_dropbox"
+            android:key="@string/key_dropbox_link_unlink"
+            android:switchTextOff="@string/disconnected"
+            android:switchTextOn="@string/connected" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_dropbox_link_unlink"
+            android:key="@string/key_dropbox_daily_sync"
+            android:summary="@string/prefs_setting_summary_dropbox_daily_sync"
+            android:title="@string/prefs_setting_title_dropbox_daily_sync" />
+                <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_dropbox_link_unlink"
+            android:key="@string/key_dropbox_delete_during_sync"
+            android:summary="@string/prefs_setting_summary_dropbox_delete_during_sync"
+            android:title="@string/prefs_setting_title_dropbox_delete_during_sync" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Turios.iml" filepath="$PROJECT_DIR$/Turios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidmapsextensions/androidmapsextensions.iml" filepath="$PROJECT_DIR$/androidmapsextensions/androidmapsextensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numberPickerCompatLibrary/numberPickerCompatLibrary.iml" filepath="$PROJECT_DIR$/numberPickerCompatLibrary/numberPickerCompatLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchCompatLibrary/switchCompatLibrary.iml" filepath="$PROJECT_DIR$/switchCompatLibrary/switchCompatLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turios/turios.iml" filepath="$PROJECT_DIR$/turios/turios.iml" />
+    </modules>
+  </component>
+</project>
+

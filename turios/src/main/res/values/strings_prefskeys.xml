@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="category1">category1</string>
+    <string name="category2">category2</string>
+    <string name="status_category">status_category</string>
+    <string name="status_checkbox">status_checkbox</string>
+    <string name="key_first_startup">first_startup</string>
+    <string name="key_last_known_update_time">last_known_update_time</string>
+    <!-- Account -->
+    <string name="key_username">key_username</string>
+    <string name="key_password">key_password</string>
+    <string name="key_devicename">key_devicename</string>
+    <!-- Module paid keys -->
+    <string name="key_module_ispaid_basis">key_module_ispaid_basis</string>
+    <string name="key_module_ispaid_dropbox">key_module_ispaid_dropbox</string>
+    <string name="key_module_ispaid_picklist">key_module_ispaid_picklist</string>
+    <string name="key_module_ispaid_accessplan">key_module_ispaid_accessplan</string>
+    <string name="key_module_ispaid_browser">key_module_ispaid_internetbrowser</string>
+    <string name="key_module_ispaid_googlemaps">key_module_ispaid_googlemaps</string>
+    <string name="key_module_ispaid_directions">key_module_ispaid_directions</string>
+    <string name="key_module_ispaid_hydrants">key_module_ispaid_hydrants</string>
+    <!-- Module activation keys -->
+    <string name="key_module_activated_basis">key_module_basis</string>
+    <string name="key_module_activated_dropbox">key_module_dropbox</string>
+    <string name="key_module_activated_picklist">key_module_picklist</string>
+    <string name="key_module_activated_accessplan">key_module_accessplan</string>
+    <string name="key_module_activated_browser">key_module_internetbrowser</string>
+    <string name="key_module_activated_googlemaps">key_module_googlemaps</string>
+    <string name="key_module_activated_directions">key_module_directions</string>
+    <string name="key_module_activated_hydrants">key_module_hydrants</string>
+
+    <!-- Modules Overview -->
+    <string name="key_module_activationinfo">key_module_activation_info</string>
+    <!-- General Settings -->
+    <string name="key_lockpw">key_lockpw</string>
+    <string name="key_notificationsound">key_notificationsound</string>
+    <string name="key_wakescreen">key_wakescreen</string>
+    <!-- Update screen -->
+    <string name="key_update">key_update</string>
+    <string name="key_update_info">key_update_info</string>
+    <!-- Basis Module -->
+    <string name="key_basis_tabname">key_basis_tabname</string>
+    <string name="key_autodelete">key_autodelete</string>
+    <string name="key_autodelete_values">key_autodelete_values</string>
+    <string name="key_entry">key_entry</string>
+    <!-- Picklist Module -->
+    <string name="key_picklist_entry">key_picklist_entry</string>
+    <!-- Accessplans Module -->
+    <string name="key_accessplan_entry">key_accessplan_entry</string>
+    <!-- Browser Module -->
+    <string name="key_browser_autosubmit">key_browser_autosubmit</string>
+    <string name="key_browser_input_name_1">key_browser_input_name_1</string>
+    <string name="key_browser_input_value_1">key_browser_input_value_1</string>
+    <string name="key_browser_input_name_2">key_browser_input_name_2</string>
+    <string name="key_browser_input_value_2">key_browser_input_value_2</string>
+    <string name="key_browser_advanced">key_browser_advanced</string>
+    <string name="key_browser_tabname">key_browser_tabname</string>
+    <string name="key_browser_url">key_browser_url</string>
+    <string name="key_browser_pluginstate">key_pluginstate</string>
+    <string name="key_browser_supportzoom">key_supportzoom</string>
+    <string name="key_browser_builtinzoom">key_builtinzoom</string>
+    <string name="key_browser_displayzoomcontrol">key_displayzoomcontrol</string>
+    <string name="key_browser_javascriptenabled">key_javascriptenabled</string>
+    <string name="key_browser_javascriptcanopenwindowsautomatically">key_javascriptcanopenwindowsautomatically</string>
+    <string name="key_browser_allowfileaccess">key_allowfileaccess</string>
+    <string name="key_browser_domstorageenabled">key_domstorageenabled</string>
+    <!-- GoogleMaps Module -->
+    <string name="key_googlemaps_address_entry">key_address_entry</string>
+    <string name="key_googlemaps_city_entry">key_city_entry</string>
+    <!-- Hydrants Module -->
+    <string name="key_hydrants_maptype">key_hydrants_maptype</string>
+    <string name="key_hydrants_traffic">key_hydrants_traffic</string>
+    <string name="key_hydrants_radius">key_hydrants_radius</string>
+    <string name="key_hydrants_setting_latitude">key_hydrants_setting_latitude</string>
+    <string name="key_hydrants_setting_lock_latitude_decimal">key_hydrants_setting_lock_latitude_decimal</string>
+    <string name="key_hydrants_setting_longitude">key_hydrants_setting_longitude</string>
+    <string name="key_hydrants_setting_lock_longitude_decimal">key_hydrants_setting_lock_longitude_decimal</string>
+    <string name="key_hydrants_setting_address">key_hydrants_setting_address</string>
+    <string name="key_hydrants_setting_addressremark">key_hydrants_setting_addressremark</string>
+    <string name="key_hydrants_setting_addressnumber">key_hydrants_setting_addressnumber</string>
+    <string name="key_hydrants_setting_remark">key_hydrants_setting_remark</string>
+
+    <!-- Directions Module -->
+    <string name="key_directions_maptype">key_directions_maptype</string>
+    <string name="key_directions_traffic">key_directions_traffic</string>
+    <!-- Dropbox Module -->
+    <string name="key_dropbox_link_unlink">key_dropboxlink</string>
+    <string name="key_dropbox_daily_sync">key_dropboxdailysync</string>
+    <string name="key_dropbox_delete_during_sync">key_dropbox_delete_during_sync</string>
+
+    <!--  -->
+    <string name="key_standardvalue1">key_standardvalue1</string>
+    <string name="key_standardvalue2">key_standardvalue2</string>
+    <string name="key_standardvalue3">key_standardvalue3</string>
+    <string name="key_standardvalue4">key_standardvalue4</string>
+    <string name="key_standardvalue5">key_standardvalue5</string>
+    <string name="key_standardvalue6">key_standardvalue6</string>
+    <string name="key_standardvalue7">key_standardvalue7</string>
+    <string name="key_standardvalue8">key_standardvalue8</string>
+    <string name="key_standardvalue9">key_standardvalue9</string>
+    <string name="key_standardvalue10">key_standardvalue10</string>
+    <!--  -->
+    <string name="key_prefix1">key_prefix1</string>
+    <string name="key_prefix2">key_prefix2</string>
+    <string name="key_prefix3">key_prefix3</string>
+    <string name="key_prefix4">key_prefix4</string>
+    <string name="key_prefix5">key_prefix5</string>
+    <string name="key_prefix6">key_prefix6</string>
+    <string name="key_prefix7">key_prefix7</string>
+    <string name="key_prefix8">key_prefix8</string>
+    <string name="key_prefix9">key_prefix9</string>
+    <string name="key_prefix10">key_prefix10</string>
+    <!--  -->
+    <string name="key_postfix1">key_postfix1</string>
+    <string name="key_postfix2">key_postfix2</string>
+    <string name="key_postfix3">key_postfix3</string>
+    <string name="key_postfix4">key_postfix4</string>
+    <string name="key_postfix5">key_postfix5</string>
+    <string name="key_postfix6">key_postfix6</string>
+    <string name="key_postfix7">key_postfix7</string>
+    <string name="key_postfix8">key_postfix8</string>
+    <string name="key_postfix9">key_postfix9</string>
+    <string name="key_postfix10">key_postfix10</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="TAG_EXPANDED" type="id">1</item>
+    <item name="TAG_ORIGINAL_HEIGHT" type="id">2</item>
+    <item name="TAG_TIMERECEIVED" type="id">3</item>
+    <item name="TAG_DATA_READY" type="id">4</item>
+    <item name="TAG_DATA_PDF" type="id">5</item>
+</resources>

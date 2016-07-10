@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="check_not_paid">Ikke betalt</string>
+    <string name="check_module_not_paid">Der er ikke betalt for dette modul</string>
+    <string name="check_not_enabled">Ikke slået til</string>
+    <string name="check_module_disabled">Modulet er slået fra</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="actionbar_list">
+        <item name="Turios">Turios</item>
+        <item name="Hydrants">Brandhaner</item>
+        <item name="Directions">Rute</item>
+        <item name="Browser">Browser</item>
+    </string-array>
+    <string-array name="autodelete_interval">
+        <item name="300000">Efter 5 minutter</item>
+        <item name="600000">Efter 10 minutter</item>
+        <item name="900000">Efter 15 minutter</item>
+        <item name="1200000">Efter 20 minutter</item>
+        <item name="1500000">Efter 25 minutter</item>
+    </string-array>
+    <string-array name="autodelete_interval_values">
+        <item name="300000">300000</item>
+        <item name="600000">600000</item>
+        <item name="900000">900000</item>
+        <item name="1200000">1200000</item>
+        <item name="1500000">1500000</item>
+    </string-array>
+    <string-array name="entry">
+        <item name="none">Ingen</item>
+        <item name="1">Indgang 1</item>
+        <item name="2">Indgang 2</item>
+        <item name="3">Indgang 3</item>
+        <item name="4">Indgang 4</item>
+        <item name="5">Indgang 5</item>
+        <item name="6">Indgang 6</item>
+        <item name="7">Indgang 7</item>
+        <item name="8">Indgang 8</item>
+        <item name="9">Indgang 9</item>
+        <item name="10">Indgang 10</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item name="none">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+    <string-array name="maptype">
+        <item name="0">Normal</item>
+        <item name="1">Satelite</item>
+        <item name="2">Terrain</item>
+        <item name="3">Hybrid</item>
+    </string-array>
+    <string-array name="maptype_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+    <string-array name="encoding">
+        <item name="UTF-8">UTF-8</item>
+        <item name="windows-1252">windows-1252</item>
+    </string-array>
+
+</resources>

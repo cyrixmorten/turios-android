@@ -1,0 +1,171 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp" >
+
+        <LinearLayout
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:showDividers="middle" >
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/displayStatusBar"
+        style="@style/DisplayStatusBar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <RelativeLayout
+            android:id="@+id/status_always_visible"
+            style="@style/StatusBar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" >
+
+            <TextView
+                android:id="@+id/status_received"
+                style="@style/StatusBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/received" />
+
+            <TextView
+                android:id="@+id/status_time_received"
+                style="@style/StatusBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/status_received" />
+
+            <TextView
+                android:id="@+id/status_time_delete_relative_text"
+                style="@style/StatusBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/status_time_delete_relative"
+                android:text="@string/is_deleted" />
+
+            <TextView
+                android:id="@+id/status_time_delete_relative"
+                style="@style/StatusBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/minutes" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/status_hidden"
+            style="@style/StatusHidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/status_always_visible" >
+
+            <LinearLayout
+                android:id="@+id/status_hydrants_near_address_container"
+                style="@style/StatusHiddenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:divider="@android:drawable/divider_horizontal_bright"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:showDividers="middle" >
+
+                <TextView
+                    style="@style/StatusHiddenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_information" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/optionsBar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#999"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <ImageButton
+                android:id="@+id/button_hydrants"
+                style="@style/android:Widget.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:alpha="50"
+                android:contentDescription="@string/module_hydrants"
+                android:src="@drawable/ic_action_place" />
+
+            <ImageButton
+                android:id="@+id/button_route"
+                style="@style/android:Widget.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/module_directions"
+                android:src="@drawable/ic_action_directions" />
+
+            <ImageButton
+                android:id="@+id/button_pdf"
+                style="@style/android:Widget.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:contentDescription="@string/module_accessplan"
+                android:src="@drawable/ic_action_attachment" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true" >
+
+                <ImageButton
+                    android:id="@+id/button_more"
+                    style="@style/android:Widget.ImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_action_down" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shape_background_darkgrey_inverted"
+            android:layout_alignParentBottom="true" >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <!-- The "empty" view to show when there are no items in the "list" view defined above. -->
+
+    <TextView
+        android:id="@android:id/empty"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="32dp"
+        android:text="@string/no_information"
+        android:textColor="?android:textColorSecondary" />
+
+</FrameLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/fragment_display.xml -->

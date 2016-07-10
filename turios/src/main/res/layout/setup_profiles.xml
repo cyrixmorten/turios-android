@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/setup_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/SetupHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vælg en profil" />
+
+            <ProgressBar
+                android:id="@+id/progress_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminateOnly="true" />
+
+
+            <TextView
+                android:id="@+id/setup_info_no_profile"
+                style="@style/SetupInfoBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Der er endnu ikke oprettet en profil\n\nGå til Indstillinger -> Profiler efter opsætningen hvis du ønsker at gemme oprette en profil"
+                android:textIsSelectable="false"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/setup_back" />
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/setup_continue" />
+    </LinearLayout>
+
+</LinearLayout>

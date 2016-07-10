@@ -1,0 +1,205 @@
+﻿//* PICKLIST - DO NOT DELETE THIS LINE *//
+ANX1: 	Po101: Mindre UH tunnel - Storebælt
+ANX2: 	Po102: Mindre UH Korsør/Sprogø - Storebælt
+ANX3:	Po103: Brand/Større ulykke tunnel - Storebælt
+ANX4: 	Po104: Brand Korsør/Sprogø - Storebælt
+ANX5: 	Po105: Større miljø-UH tunnel - Storebælt
+ANX6: 	Po106: Miljø-UH Korsør/Sprogø - Storebælt
+ANX7: 	Po107: Mindre UH V-bro banedel - Storebælt
+ANX8: 	Po108: Brand/Større ulykke tog V-bro - Storebælt
+ANX9: 	Po109: Miljø-UH V-bro banedel - Storebælt
+BADr:	Assistance -Drejestige 
+BAME: 	Assistance -Miljø, Trin I 
+BAMT:	Assistance -Miljø, Trin II
+BAPl: 	Assistance -Alarmeringsplan-iværksæt
+BARe: 	Assistance -Redning 
+BASD:	Assistance -A-sprøjte+drejestige
+BAST: 	Assistance -Slangetender
+BATa: 	Assistance -Tankvogn 
+BBal:	Naturbrand-Bål
+BBBu: 	Bygn.brand-Butik
+BBCa: 	Bygn.brand-Carport, fritliggende
+BBEt: 	Bygn.brand-Etageejendom
+BBGa:	Bygn.brand-Garage, fritliggende 
+BBGD: 	Bygn.brand-Gård/fare for dyr
+BBGå:	Bygn.brand-Gård 
+BBil:	Brand-Bil i det fri 
+BBIn: 	Bygn.brand-Industribygning 
+BBIS:	Bygn.brand-Industribygn.-Særligt objekt -
+BBIt:	Bygn.brand-Institution 
+BBKo: 	Bygn.brand-Kolonihavehus 
+BBLe: 	Bygn.brand-Lejlighed 
+BBMi: 	Bygn.brand-Mindre brand 
+BBSo:	Bygn.brand-Sommerhus 
+BBUd:	Bygn.brand-Udhus, fritliggende 
+BBVi: 	Bygn.brand-Villa/Rækkehus 
+BByg:	Bygn.brand
+BBaa:	Bygn.brand-Gård 
+BCAf: 	Affaldsoplag i det fri-Brand
+BCBy: 	Container i bygning-Brand 
+BCFr:	Container i det fri-Brand 
+BCMi: 	Container-Mindre brand 
+BCon:	Container i det fri-Brand 
+BCSk: 	Skraldespand i det fri-Brand 
+BEAn:	EL-instal.-Brand-Anlæg i det fri 
+BEI:	EL-instal.-Brand
+BELe:	EL-instal.-Brand-Nedfaldne el-ledninger
+BEMi:	EL-instal.-Brand-Mindre 
+BETr: 	EL-instal.-Brand-Transformatorstation
+BEVi: 	EL-instal.-Brand-Vindmølle 
+BFas:	Fastklemte
+BFly:	Flyulykke
+BGiB: 	Gas-Gaslugt i bygning 
+BGiF:	Gas-Gaslugt i det fri 
+BGLe: 	Gas-Ledningsbrud, ej antændt 
+BGLu: 	Gas-Gaslugt – eftersyn 
+BGUd: 	Gas-BRAND i udsivende gas 
+BIEf: 	ISL-Eftersyn 
+BIFo: 	ISL-Forespørgsel 
+BInd:	Indsatleder
+BKal:	Bygn.brand-Kælderbrand
+BLej:	Bygn.brand-Ild i lejlighed
+BMar:	Naturbrand-Markbrand
+BMFF: 	Min. forurening-v/FUH 
+BMFM: 	Min. forurening-Mindre spild 
+BMFO: 	Min. forurening-Oliefilm på vand 
+BNHa: 	Naturbrand-Halmstak
+BNHe: 	Naturbrand-Hede/Klit 
+BNMa: 	Naturbrand-Mark m/Afgrøder 
+BNMH: 	Naturbrand-Mark, Høstet 
+BNMi: 	Naturbrand-Mindre brand 
+BNSk: 	Naturbrand-Skråning/Grøft
+BNSP: 	Naturbrand-Skov/Plantage 
+BPer:	Redn.-Person
+BPro: 	Prøve-Individuel prøve
+BPaa: 	Påsejling Storebælt
+BRog:	Bygn.brand-Røg på trappe
+BSEf: 	Skorst.brand-Eftersyn
+BSFA: 	Str. forurening-Ammoniakudslip 
+BSFB: 	Str. forurening-Benzinudslip 
+BSFG: 	Str.forurening-Gylleudslip 
+BSFK:	Str. forurening-Kemikalieudslip 
+BSFO:	Str. forurening-Olieudslip 
+BSHT:	Skorst.brand-Hårdt tag 
+BSkH:	Skorst.brand-Hårdt tag 
+BSki:	Brand-Skib
+BSkS: 	Skorst.brand-Stråtag
+BSkv:	Naturbrand-Skov/Plantage 
+BSom:	Bygn.brand-Sommerhus 
+BSSt: 	Skorst.brand-Stråtag
+BTag:	Bygn.brand-Tagbrand
+BTBF:	Brand-Bil i det fri 
+BTBT: 	Brand-Bil under tag 
+BTFM: 	Brand-Fly, Militært 
+BTFP: 	Brand-Fly, Passagerer 
+BTGo: 	Brand-Tog, Godstog 
+BTLa: 	Brand-Landbrugsredskab
+BTLB:	Brand-Lastbil/Bus 
+BTMC: 	Brand-MC/Knallert 
+BTog:	Togulykke
+BTPa:	Brand-Tog, Passagertog
+BTSK: 	Brand-Skib ved kaj 
+BTSL: 	Brand-Skib på land/dok 
+BTSS:	Brand-Skib på sø
+BUge:	Prøve-Ugentlig prøve (ALLE)
+BAAS:	Assistance -A-sprøjte
+BAAT: 	Assistance -A-sprøjte+Tankvogn
+FHer: 	Forurening 
+MAmo:	Forurening-Ammoniakudslip 
+MBen:	Forurening-Benzinudslip 
+MFUH:	Forurening-v/FUH 
+MGas:	Gas-Gaslugt
+MGyl:	Forurening-Gylleudslip 
+MMKe:	Forurening-Kemikaliespild 
+MOil:	Forurening-Oliefilm på vand 
+MOis:	Forurening-Oliespild 
+PA53: 	§ 53
+PAIH: 	Andet/ikke hastende
+PAll:	Alle Opkald
+PAnd: 	Andet
+PFUH: 	FUH uden ambulance
+PHus: 	Husspektakler
+PInd: 	Indbrud i øjeblikket
+Pkop:	(kopi)
+Ppro:	Prøve-individuel prøve
+PRed: 	Overført Opkald
+PRov: 	Røveri
+PSla: 	Overfald/Slagsmål
+RAMi: 	Flyulykke-Militært
+RAPa:	Flyulykke-Passager 
+RAS1:	Fly - standby 1/sikkerhedslanding 
+RAS2: 	Fly - standby 2/sikkerhedslanding 
+RAS3:	Fly - standby 3/sikkerhedslanding
+RDFj: 	Redn.-Drukneulykke FJORD 
+RDHa: 	Redn.-Drukneulykke HAVET 
+RDSø:	Redn.-Drukneulykke SØER - HAVN 
+RFBr:	FUH-Brand i bil 
+RFBV:	FUH-Bil i vand 
+RFFa:	FUH-Fastklemte i BIL 
+RFFB: 	FUH-Fastklemte/Brandfare BIL 
+RFFL: 	FUH-Fastklemte i LASBIL/BUS 
+RFFS: 	FUH-Fastklemte/Brandfare LASTBIL/BUS
+RFTi: 	FUH-Mere end 5 Tilskadekomne
+RHer:	Redning 
+RJGo:	Togulykke-Gods 
+RJPa:	Togulykke-Passager 
+RPBy: 	Redn.-Bygning/højderedning 
+RPDr:	Redn.-Drukneulykke
+RPFM: 	Redn.-Fastklemt, Maskine o.l. 
+RPJo: 	Redn.-Jord-/Sandskred 
+RPMa: 	Redn.-Mast/højderedning
+RPSa: 	Redn.-Sammenstyrtning 
+RPSi: 	Redn.-Silo/Brønd
+RPSk: 	Redn.-Skrænt
+RPTi:	Redn.-Mere end 5 Tilskadekomne
+SAMi:	AMB-Flyulykke-Militært
+SAnd: 	AMB-Andet
+SAPa:	AMB-Flyulykke-Passager 
+SAS1:	AMB-Fly - standby 1/sikkerhedslanding
+SAS2:	AMB-Fly - standby 2/sikkerhedslanding
+SAS3:	AMB-Fly - standby 3/sikkerhedslanding
+SBEt:	AMB-Brand-Etageejendom 
+SBIn:	AMB-Brand-Industribygning 
+SBIt:	AMB-Brand-Institution 
+SBLe:	AMB-Brand-Lejlighed 
+SBVi:	AMB-Brand-Villa/Rækkehus 
+SDFj: 	AMB-Drukneulykke FJORD 
+SDHa: 	AMB-Drukneulykke HAVET 
+SDSø:	AMB-Drukneulykke SØER - HAVN 
+SFBr:	AMB-FUH-Brand i bil
+SFBV:	AMB-FUH-Bil i vand
+SFFa:	AMB-FUH-Fastklemte BIL 
+SFFB:	AMB-FUH-Fastklemte/Brandfare BIL 
+SFFL:	AMB-FUH Fastklemte LASTBIL/BUS 
+SFFS:	AMB-FUH Fastklemte/Brandfare LASTBIL/BUS
+SFTi:	AMB-FUH-Mere end 5 Tilskadekomne
+SFUf:	AMB-FUH-Fastklemte
+SFUH:	AMB-FUH-Ambulance
+SJGo:	AMB-Togulykke-Gods 
+SJPa:	AMB-Togulykke-Passager
+SPBy:	AMB-Bygning/højderedning 
+SPDr:	AMB-Drukneulykke 
+SPFM:	AMB-Fastklemt, Maskine o.l. 
+SPJo:	AMB-Jord-/Sandskred 
+SPMa:	AMB-Mast/højderedning 
+Spro:	AMB-Prøve-Individuel prøve
+SPSa:	AMB-Sammenstyrtning 
+SPSi:	AMB-Silo/brønd
+SPSk:	AMB-Skrænt 
+SPTi:	AMB-Mere end 5 Tilskadekomne
+SSBl: 	Sygdom-Blødninger
+SSFg:	Sygdom-Forgiftning
+SSFo:	Sygdom-Forbrændinger
+SSFr: 	Sygdom-Fremmedlegeme i halsen
+SSGr: 	Sygdom-Graviditet/Fødsel
+SSHb:	Sygdom-Hjerneblødning
+SSHt: 	Sygdom-Hjertetilfælde
+SSKr: 	Sygdom-Kramper
+SSNa:	Sygdom-Narkoman
+SSuk: 	Sygdom-Sukkersyge/diabetiker
+SSVe: 	Sygdom-Vejrtrækningsbesvær
+SSyg:	Sygdom
+STSA: 	Tilskadekomst-Arbejdsplads
+STSH:	Tilskadekomst-Hjem
+STSK:	Tilskadekomst-Øvrige
+Sygd:	Sygdom

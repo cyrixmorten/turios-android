@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_overflow_preferences"
+       
+        android:orderInCategory="11111"
+        android:showAsAction="always"
+        android:title="">
+        
+        <item
+            android:id="@+id/button_preferences"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/prefs_settings"/>
+        <item
+            android:id="@+id/button_sync"
+            android:icon="@drawable/ic_action_refresh"
+            android:title="@string/refresh"/>
+    </item>
+
+</menu><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/menu/menu_main.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/details"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    tools:context=".Turios" >
+	
+	    <android.support.v4.view.ViewPager
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/display_pager"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	
+	        <android.support.v4.view.PagerTitleStrip
+	            android:id="@+id/pager_title_strip"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="top"
+	            android:background="#333"
+	            android:paddingBottom="4dp"
+	            android:paddingLeft="5dp"
+	            android:paddingRight="5dp"
+	            android:paddingTop="4dp"
+	            android:textColor="#fff" >
+	        </android.support.v4.view.PagerTitleStrip>
+	    </android.support.v4.view.ViewPager>
+	
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="20dp"
+	        android:layout_gravity="bottom"
+	        android:background="@drawable/shape_background_darkgrey"
+	        android:padding="5dp" />
+	
+	</FrameLayout>

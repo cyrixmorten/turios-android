@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="actionbar_list">
+        <item name="Turios">Turios</item>
+        <item name="Hydrants">Brandhaner</item>
+        <item name="Directions">Rute</item>
+        <item name="Browser">Browser</item>
+    </string-array>
+    <string-array name="autodelete_interval">
+        <item name="300000">Efter 5 minutter</item>
+        <item name="600000">Efter 10 minutter</item>
+        <item name="900000">Efter 15 minutter</item>
+        <item name="1200000">Efter 20 minutter</item>
+        <item name="1500000">Efter 25 minutter</item>
+    </string-array>
+    <string-array name="autodelete_interval_values">
+        <item name="300000">300000</item>
+        <item name="600000">600000</item>
+        <item name="900000">900000</item>
+        <item name="1200000">1200000</item>
+        <item name="1500000">1500000</item>
+    </string-array>
+    <string-array name="encoding">
+        <item name="UTF-8">UTF-8</item>
+        <item name="windows-1252">windows-1252</item>
+    </string-array>
+    <string-array name="entry">
+        <item name="none">Ingen</item>
+        <item name="1">Indgang 1</item>
+        <item name="2">Indgang 2</item>
+        <item name="3">Indgang 3</item>
+        <item name="4">Indgang 4</item>
+        <item name="5">Indgang 5</item>
+        <item name="6">Indgang 6</item>
+        <item name="7">Indgang 7</item>
+        <item name="8">Indgang 8</item>
+        <item name="9">Indgang 9</item>
+        <item name="10">Indgang 10</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item name="none">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+    <string-array name="maptype">
+        <item name="0">Normal</item>
+        <item name="1">Satelite</item>
+        <item name="2">Terrain</item>
+        <item name="3">Hybrid</item>
+    </string-array>
+    <string-array name="maptype_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="numberPickerStyle"/>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="switchStyle"/>
+    <attr format="reference" name="textAppearance"/>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_debug">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/layouts.xml -->
+    <eat-comment/>
+    <bool name="has_two_panes">false</bool>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Black">#000</color>
+    <color name="DarkGrey">#4F4F4F</color>
+    <color name="Green">#0F0</color>
+    <color name="Grey">#CCC</color>
+    <color name="Orange">#FF9900</color>
+    <color name="Red">#FF0000</color>
+    <color name="Transparent">#00000000</color>
+    <color name="TransparentGrey">#7F000000</color>
+    <color name="VeryDarkGrey">#333</color>
+    <color name="White">#FFF</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="ame_default_cluster_circle_color_extra_large">#FFFF00ED</color>
+    <color name="ame_default_cluster_circle_color_large">#FFFF0000</color>
+    <color name="ame_default_cluster_circle_color_medium">#FFFFBF00</color>
+    <color name="ame_default_cluster_circle_color_small">#FF008CFF</color>
+    <color name="ame_default_cluster_circle_shadow_color">#8000</color>
+    <color name="ame_default_cluster_text_color">#FFF</color>
+    <color name="ame_default_cluster_text_shadow_color">#000</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiosactionbartheme.xml -->
+    <eat-comment/>
+    <color name="pressed_turiosactionbartheme">#CCFF8800</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="transparent">#00000000</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiostheme.xml -->
+    <eat-comment/>
+    <color name="turiostheme_color">#ff8800</color>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiosthemelight.xml -->
+    <eat-comment/>
+    <color name="turiosthemelight_color">#ff8800</color>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <declare-styleable name="NumberPicker"><attr format="color|reference" name="solidColor"/><attr format="reference" name="selectionDivider"/><attr format="dimension" name="selectionDividerHeight"/><attr format="dimension" name="selectionDividersDistance"/><attr format="dimension" name="internalMinHeight"/><attr format="dimension" name="internalMaxHeight"/><attr format="dimension" name="internalMinWidth"/><attr format="dimension" name="internalMaxWidth"/><attr format="reference" name="internalLayout"/><attr format="reference" name="virtualButtonPressedDrawable"/></declare-styleable>
+    <declare-styleable name="NumberPickerDialogPreference"><attr name="android:max"/><attr format="integer" name="number_min"/></declare-styleable>
+    <declare-styleable name="SeekBarDialogPreference"><attr name="android:max"/><attr format="integer" name="seek_min"/><attr format="string" name="progressTextSuffix"/></declare-styleable>
+    <declare-styleable name="Switch"><attr format="reference" name="thumb"/><attr format="reference" name="track"/><attr format="string" name="textOn"/><attr format="string" name="textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/></declare-styleable>
+    <declare-styleable name="TextAppearanceSwitch"><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="reference" name="textStyle"/><attr format="reference" name="typeface"/><attr format="reference" name="fontFamily"/><attr format="color" name="textColorHighlight"/><attr format="color" name="textColorHint"/><attr format="color" name="textColorLink"/><attr format="boolean" name="textAllCaps"/></declare-styleable>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="ame_default_cluster_circle_blur_radius">5dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_blur_radius">1dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_offset_x">2dp</dimen>
+    <dimen name="ame_default_cluster_circle_shadow_offset_y">2dp</dimen>
+    <dimen name="ame_default_cluster_text_padding">5dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_blur_radius">1dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_offset_x">1dp</dimen>
+    <dimen name="ame_default_cluster_text_shadow_offset_y">1dp</dimen>
+    <dimen name="ame_default_cluster_text_size">16dp</dimen>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="display_size">600dp</dimen>
+    <dimen name="header_icon_width">28dp</dimen>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens_turiostheme.xml -->
+    <eat-comment/>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="text_size_hidden">15sp</dimen>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/tags.xml -->
+    <eat-comment/>
+    <item name="TAG_DATA_PDF" type="id">5</item>
+    <item name="TAG_DATA_READY" type="id">4</item>
+    <item name="TAG_EXPANDED" type="id">1</item>
+    <item name="TAG_ORIGINAL_HEIGHT" type="id">2</item>
+    <item name="TAG_TIMERECEIVED" type="id">3</item>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="np__decrement" type="id"/>
+    <item name="np__increment" type="id"/>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">6587000</integer>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/standardvalues.xml -->
+    <eat-comment/>
+    <integer name="hydrant_radius">300</integer>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/layouts.xml -->
+    <eat-comment/>
+    <item name="main_layout" type="layout">@layout/activity_turios</item>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Default">Standard</string>
+    <string name="Every">Hvert</string>
+    <string name="accessplan">tilkørselsplan</string>
+    <string name="active">Aktiveret</string>
+    <string name="add">Tilføj</string>
+    <string name="adding_hydrants">Tilføjer brandhaner...</string>
+    <string name="all_hydrants">Alle brandhaner</string>
+    <string name="app_name">Turios</string>
+    <string name="cannot_delay_page_delete_twice">Denne side er allerede blevet udsat</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <eat-comment/>
+    <string name="category1">category1</string>
+    <string name="category2">category2</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="channel_create">Opret kanal</string>
+    <string name="channel_created">Kanal oprettet</string>
+    <string name="channel_delete">Slet kanal</string>
+    <string name="channel_deleted">Kanal slettet</string>
+    <string name="channel_listening_to">Lytter nu til kanal %1$s</string>
+    <string name="channel_not_listening_to">Lytter ikke længere til kanal %1$s</string>
+    <string name="channel_not_sending_to">Sender ikke længere til kanal %1$s</string>
+    <string name="channel_sending_to">Sender nu til kanal %1$s</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_modulecheck.xml -->
+    <eat-comment/>
+    <string name="check_module_disabled">Modulet er slået fra</string>
+    <string name="check_module_not_paid">Der er ikke betalt for dette modul</string>
+    <string name="check_not_enabled">Ikke slået til</string>
+    <string name="check_not_paid">Ikke betalt</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="checking">Kontrollerer</string>
+    <string name="choose_a_maptype">Angiv kort type</string>
+    <string name="choose_an_entry">Vælg en indgang</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/com_crashlytics_export_strings.xml -->
+    <eat-comment/>
+    <string name="com.crashlytics.android.build_id" translatable="false">208f71bb-fefe-417f-9dd6-471d385ae66f</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_delete">Vil du virkelig slette %1$s?</string>
+    <string name="confirm_delete_page">Ønsker du at fjerne siden?</string>
+    <string name="confirm_download_from_google_play">Vil du downloade fra Google Play?</string>
+    <string name="connected">Forbundet</string>
+    <string name="could_not_create_or_access_downloadfolder">Kunne ikke oprette eller tilgå mappe til download</string>
+    <string name="could_not_locate_device">Kunne ikke fastlå enhedens position</string>
+    <string name="could_not_locate_file">Kunne ikke finde filen</string>
+    <string name="created">oprettet</string>
+    <string name="current_version">Nuværende version</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="cyrix.turios.activities.Turios">Home</string>
+    <string name="cyrix.turios.settings.SettingsActivity">Preferences</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="deactive">Deaktiveret</string>
+    <string name="default_url_address">www.turios.dk/category/blog/</string>
+    <string name="delay">Udsæt</string>
+    <string name="delete">Slet</string>
+    <string name="delete_page">Slet side</string>
+    <string name="deleted">slettet</string>
+    <string name="devicename">Enhedsnavn</string>
+    <string name="directions_address_or_city_empty">Mangler adresse eller by for destination!</string>
+    <string name="disconnected">Afbrudt</string>
+    <string name="download_and_install_now">Download og installer den nyeste version nu?</string>
+    <string name="downloading">downloader</string>
+    <string name="dropbox_empty">Dropbox er tom, tilføjer </string>
+    <string name="dropbox_link_failure">Forbindelse til Dropbox mislykkedes!</string>
+    <string name="dropbox_link_success">Forbindelse til Dropbox lykkedes</string>
+    <string name="dropbox_login">Log på Dropbox</string>
+    <string name="dropbox_logout">Log af Dropbox</string>
+    <string name="dropbox_not_ready_try_again_later">Dropbox ikke klar, prøv igen om et øjeblik</string>
+    <string name="editing">Redigering</string>
+    <string name="entry">Indgang</string>
+    <string name="error">Fejl</string>
+    <string name="error_creating">Der opstod en fejl under oprettelsen</string>
+    <string name="error_deleting">Der opstod en fejl under fjernelsen</string>
+    <string name="error_smsreceived_trial_expired">SMS modtaget, men prøveversion udløbet!</string>
+    <string name="file_successfully_downloaded">Filen er nu downloaded</string>
+    <string name="form">Form</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="ga_trackingId">UA-42903975-2</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="get_directions">Vis vej</string>
+    <string name="global">Globale</string>
+    <string name="go_to_information">Gå til information</string>
+    <string name="google_account">Google Konto</string>
+    <string name="google_maps_missing_google_account">For at kunne vise Google Maps skal enheden have en Google Konto tilknyttet. Ønsker du at tilknytte en Google Konto nu?</string>
+    <string name="hydrant_information">Brandhane information</string>
+    <string name="hydrant_position">Brandhane position</string>
+    <string name="invalid_data">Ugyldig data</string>
+    <string name="is_deleted">slettes</string>
+    <string name="javascript">Javascript</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <eat-comment/>
+    <string name="key_accessplan_entry">key_accessplan_entry</string>
+    <string name="key_autodelete">key_autodelete</string>
+    <string name="key_autodelete_values">key_autodelete_values</string>
+    <string name="key_basis_tabname">key_basis_tabname</string>
+    <string name="key_browser_advanced">key_browser_advanced</string>
+    <string name="key_browser_allowfileaccess">key_allowfileaccess</string>
+    <string name="key_browser_autosubmit">key_browser_autosubmit</string>
+    <string name="key_browser_builtinzoom">key_builtinzoom</string>
+    <string name="key_browser_displayzoomcontrol">key_displayzoomcontrol</string>
+    <string name="key_browser_domstorageenabled">key_domstorageenabled</string>
+    <string name="key_browser_input_name_1">key_browser_input_name_1</string>
+    <string name="key_browser_input_name_2">key_browser_input_name_2</string>
+    <string name="key_browser_input_value_1">key_browser_input_value_1</string>
+    <string name="key_browser_input_value_2">key_browser_input_value_2</string>
+    <string name="key_browser_javascriptcanopenwindowsautomatically">key_javascriptcanopenwindowsautomatically</string>
+    <string name="key_browser_javascriptenabled">key_javascriptenabled</string>
+    <string name="key_browser_pluginstate">key_pluginstate</string>
+    <string name="key_browser_supportzoom">key_supportzoom</string>
+    <string name="key_browser_tabname">key_browser_tabname</string>
+    <string name="key_browser_url">key_browser_url</string>
+    <string name="key_devicename">key_devicename</string>
+    <string name="key_directions_maptype">key_directions_maptype</string>
+    <string name="key_directions_traffic">key_directions_traffic</string>
+    <string name="key_dropbox_daily_sync">key_dropboxdailysync</string>
+    <string name="key_dropbox_delete_during_sync">key_dropbox_delete_during_sync</string>
+    <string name="key_dropbox_link_unlink">key_dropboxlink</string>
+    <string name="key_entry">key_entry</string>
+    <string name="key_first_startup">first_startup</string>
+    <string name="key_googlemaps_address_entry">key_address_entry</string>
+    <string name="key_googlemaps_city_entry">key_city_entry</string>
+    <string name="key_hydrants_maptype">key_hydrants_maptype</string>
+    <string name="key_hydrants_radius">key_hydrants_radius</string>
+    <string name="key_hydrants_setting_address">key_hydrants_setting_address</string>
+    <string name="key_hydrants_setting_addressnumber">key_hydrants_setting_addressnumber</string>
+    <string name="key_hydrants_setting_addressremark">key_hydrants_setting_addressremark</string>
+    <string name="key_hydrants_setting_latitude">key_hydrants_setting_latitude</string>
+    <string name="key_hydrants_setting_lock_latitude_decimal">key_hydrants_setting_lock_latitude_decimal</string>
+    <string name="key_hydrants_setting_lock_longitude_decimal">key_hydrants_setting_lock_longitude_decimal</string>
+    <string name="key_hydrants_setting_longitude">key_hydrants_setting_longitude</string>
+    <string name="key_hydrants_setting_remark">key_hydrants_setting_remark</string>
+    <string name="key_hydrants_traffic">key_hydrants_traffic</string>
+    <string name="key_last_known_update_time">last_known_update_time</string>
+    <string name="key_lockpw">key_lockpw</string>
+    <string name="key_module_activated_accessplan">key_module_accessplan</string>
+    <string name="key_module_activated_basis">key_module_basis</string>
+    <string name="key_module_activated_browser">key_module_internetbrowser</string>
+    <string name="key_module_activated_directions">key_module_directions</string>
+    <string name="key_module_activated_dropbox">key_module_dropbox</string>
+    <string name="key_module_activated_googlemaps">key_module_googlemaps</string>
+    <string name="key_module_activated_hydrants">key_module_hydrants</string>
+    <string name="key_module_activated_picklist">key_module_picklist</string>
+    <string name="key_module_activationinfo">key_module_activation_info</string>
+    <string name="key_module_ispaid_accessplan">key_module_ispaid_accessplan</string>
+    <string name="key_module_ispaid_basis">key_module_ispaid_basis</string>
+    <string name="key_module_ispaid_browser">key_module_ispaid_internetbrowser</string>
+    <string name="key_module_ispaid_directions">key_module_ispaid_directions</string>
+    <string name="key_module_ispaid_dropbox">key_module_ispaid_dropbox</string>
+    <string name="key_module_ispaid_googlemaps">key_module_ispaid_googlemaps</string>
+    <string name="key_module_ispaid_hydrants">key_module_ispaid_hydrants</string>
+    <string name="key_module_ispaid_picklist">key_module_ispaid_picklist</string>
+    <string name="key_notificationsound">key_notificationsound</string>
+    <string name="key_password">key_password</string>
+    <string name="key_picklist_entry">key_picklist_entry</string>
+    <string name="key_postfix1">key_postfix1</string>
+    <string name="key_postfix10">key_postfix10</string>
+    <string name="key_postfix2">key_postfix2</string>
+    <string name="key_postfix3">key_postfix3</string>
+    <string name="key_postfix4">key_postfix4</string>
+    <string name="key_postfix5">key_postfix5</string>
+    <string name="key_postfix6">key_postfix6</string>
+    <string name="key_postfix7">key_postfix7</string>
+    <string name="key_postfix8">key_postfix8</string>
+    <string name="key_postfix9">key_postfix9</string>
+    <string name="key_prefix1">key_prefix1</string>
+    <string name="key_prefix10">key_prefix10</string>
+    <string name="key_prefix2">key_prefix2</string>
+    <string name="key_prefix3">key_prefix3</string>
+    <string name="key_prefix4">key_prefix4</string>
+    <string name="key_prefix5">key_prefix5</string>
+    <string name="key_prefix6">key_prefix6</string>
+    <string name="key_prefix7">key_prefix7</string>
+    <string name="key_prefix8">key_prefix8</string>
+    <string name="key_prefix9">key_prefix9</string>
+    <string name="key_standardvalue1">key_standardvalue1</string>
+    <string name="key_standardvalue10">key_standardvalue10</string>
+    <string name="key_standardvalue2">key_standardvalue2</string>
+    <string name="key_standardvalue3">key_standardvalue3</string>
+    <string name="key_standardvalue4">key_standardvalue4</string>
+    <string name="key_standardvalue5">key_standardvalue5</string>
+    <string name="key_standardvalue6">key_standardvalue6</string>
+    <string name="key_standardvalue7">key_standardvalue7</string>
+    <string name="key_standardvalue8">key_standardvalue8</string>
+    <string name="key_standardvalue9">key_standardvalue9</string>
+    <string name="key_update">key_update</string>
+    <string name="key_update_info">key_update_info</string>
+    <string name="key_username">key_username</string>
+    <string name="key_wakescreen">key_wakescreen</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="loaded_dropboxpreferences">Indstillinger fra dropbox er nu indlæst</string>
+    <string name="loading">Indlæser...</string>
+    <string name="locked">Slået fra</string>
+    <string name="login">Login</string>
+    <string name="login_failed">Kunne ikke logge ind</string>
+    <string name="map">kort</string>
+    <string name="meter">meter</string>
+    <string name="minute">minut</string>
+    <string name="minutes">minutter</string>
+    <string name="missing_address">Mangler adresse</string>
+    <string name="missing_address_position">Mangler position for adresse %1$s %2$s</string>
+    <string name="missing_hydrants">Mangler brandhaner</string>
+    <string name="missing_internet_connection">Mangler internet forbindelse</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_setup.xml -->
+    <eat-comment/>
+    <string name="missing_name">Mangler navn</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="missingsd">Mangler SD-kort</string>
+    <string name="module_accessplan">Tilkørselsplan</string>
+    <string name="module_basis">Basis</string>
+    <string name="module_browser">Browser</string>
+    <string name="module_directions">Rute</string>
+    <string name="module_dropbox">Dropbox</string>
+    <string name="module_googlemaps">Google Maps</string>
+    <string name="module_hydrants">Brandhaner</string>
+    <string name="module_is_ready">Modulet er klar til brug</string>
+    <string name="module_not_active">Modul ikke aktiveret</string>
+    <string name="module_picklist">Pickliste</string>
+    <string name="module_status">Modul status</string>
+    <string name="moduleactivated">Modul aktiveret</string>
+    <string name="modules">Moduler</string>
+    <string name="new_turnout">Ny udryking</string>
+    <string name="no_information">Ingen informationer at vise.</string>
+    <string name="no_internet_connection">Kunne ikke oprette forbindelse til internettet</string>
+    <string name="no_internet_connection_try_again">Kunne ikke oprette forbindelse til internettet.\nPrøv venligst igen når der er forbindelse.</string>
+    <string name="no_pdfviewer_installed">Der er ingen PDF viewer installeret</string>
+    <string name="no_support_for_external_sd">Kunne ikke registrere understøttelse af eksternt SD-kort</string>
+    <string name="not_changed">ikke ændret</string>
+    <string name="number">Nummer</string>
+    <string name="organisation">Organisation</string>
+    <string name="page">Side</string>
+    <string name="page_delete_delayed">Slettelse af siden er udsat</string>
+    <string name="password">Kode</string>
+    <string name="picklist_updated">Picklisten er opdateret</string>
+    <string name="please_wait">Vent venligst...</string>
+    <string name="preferences_file_found">Indstillings fil fundet</string>
+    <string name="preferences_file_found_dropbox">Der blev fundet en fil med indstillinger fra Dropbox, skal de nuværende indstillinger overskrives med disse?</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefs.xml -->
+    <eat-comment/>
+    <string name="prefs_advanced_settings">Avancerede indstillinger</string>
+    <string name="prefs_category_notifications">Notifikationer</string>
+    <string name="prefs_category_summary_entries">Vælg den indgang du ønsker at ændre indstillinger for</string>
+    <string name="prefs_category_title_entries">Indgangs indstillinger</string>
+    <string name="prefs_displaying">Visning</string>
+    <string name="prefs_entry1">Indgang 1</string>
+    <string name="prefs_entry10">Indgang 10</string>
+    <string name="prefs_entry2">Indgang 2</string>
+    <string name="prefs_entry3">Indgang 3</string>
+    <string name="prefs_entry4">Indgang 4</string>
+    <string name="prefs_entry5">Indgang 5</string>
+    <string name="prefs_entry6">Indgang 6</string>
+    <string name="prefs_entry7">Indgang 7</string>
+    <string name="prefs_entry8">Indgang 8</string>
+    <string name="prefs_entry9">Indgang 9</string>
+    <string name="prefs_header_title_accessplans">Tilkørselsplaner</string>
+    <string name="prefs_header_title_basis">Basis</string>
+    <string name="prefs_header_title_browser">Browser</string>
+    <string name="prefs_header_title_connect_units">Forbind enheder</string>
+    <string name="prefs_header_title_directions">Rute</string>
+    <string name="prefs_header_title_dropbox">Dropbox</string>
+    <string name="prefs_header_title_entries">Indgange</string>
+    <string name="prefs_header_title_general">Generelle indstillinger</string>
+    <string name="prefs_header_title_googlemaps">Google Maps</string>
+    <string name="prefs_header_title_hydrants">Brandhaner</string>
+    <string name="prefs_header_title_listentochannels">Lyt til kanaler</string>
+    <string name="prefs_header_title_picklist">Pickliste</string>
+    <string name="prefs_header_title_profiles">Profiler</string>
+    <string name="prefs_header_title_sendtochannels">Send til kanaler</string>
+    <string name="prefs_header_title_update">Opdater</string>
+    <string name="prefs_setting_info_connect_units">Denne indstilling giver mulighed for automatisk videresendelse af alle indkommende SMS beskeder til andre enheder</string>
+    <string name="prefs_setting_info_profiles">Den valgte profil vil automatisk få synkroniseret alle sine indstillinger med alle andre enheder </string>
+    <string name="prefs_setting_infor_associate">Denne indstilling giver mulighed for automatisk videresendelse af alle indkommende SMS beskeder til andre enheder</string>
+    <string name="prefs_setting_summary_accessplan">Denne indgang kan være en tilkørselsplan</string>
+    <string name="prefs_setting_summary_address">Denne indgang kan være en adresse</string>
+    <string name="prefs_setting_summary_autodelete">Slet sider efter et valgt antal minutter</string>
+    <string name="prefs_setting_summary_autodeletevalues">Vælg hvor lang tid der skal gå før sider slettes</string>
+    <string name="prefs_setting_summary_browser_form_autosubmit">Denne funktion vil indsætte nedenstående værdier i den første form på siden, hvorefter disse submittes. \nLoalisering af elementer sker ved document.getElementByName().\nKræver javascript slået til.</string>
+    <string name="prefs_setting_summary_browser_form_inputname1">Første input ElementName</string>
+    <string name="prefs_setting_summary_browser_form_inputname2">Navn på anden input element</string>
+    <string name="prefs_setting_summary_browser_form_inputvalue1">Værdi til første input element</string>
+    <string name="prefs_setting_summary_browser_form_inputvalue2">Værdi til anden input element</string>
+    <string name="prefs_setting_summary_browser_setAllowFileAccess">Enables or disables file access within WebView. File access is enabled by default. Note that this enables or disables file system access only. Assets and resources are still accessible using file:///android_asset and file:///android_res.</string>
+    <string name="prefs_setting_summary_browser_setBuiltInZoomControls">Sets whether the WebView should use its built-in zoom mechanisms. The built-in zoom mechanisms comprise on-screen zoom controls, which are displayed over the WebView\'s content, and the use of a pinch gesture to control zooming. Whether or not these on-screen controls are displayed can be set with setDisplayZoomControls(boolean). The default is false.</string>
+    <string name="prefs_setting_summary_browser_setDisplayZoomControls">Sets whether the WebView should display on-screen zoom controls when using the built-in zoom mechanisms. See setBuiltInZoomControls(boolean). The default is true.</string>
+    <string name="prefs_setting_summary_browser_setDomStorageEnabled">Sets whether the DOM storage API is enabled. The default value is false.</string>
+    <string name="prefs_setting_summary_browser_setJavaScriptCanOpenWindowsAutomatically">Tells JavaScript to open windows automatically. This applies to the JavaScript function window.open(). The default is false.</string>
+    <string name="prefs_setting_summary_browser_setJavaScriptEnabled">Tells the WebView to enable JavaScript execution. The default is false.</string>
+    <string name="prefs_setting_summary_browser_setSupportZoom">Sets whether the WebView should support zooming using its on-screen zoom controls and gestures. The particular zoom mechanisms that should be used can be set with setBuiltInZoomControls(boolean). This setting does not affect zooming performed using the zoomIn() and zoomOut() methods. The default is true.</string>
+    <string name="prefs_setting_summary_browser_url">Vælg URL for browser</string>
+    <string name="prefs_setting_summary_city">Denne indgang kan være en by</string>
+    <string name="prefs_setting_summary_dropbox_daily_sync">Synkroniser en gang i døgnet</string>
+    <string name="prefs_setting_summary_dropbox_delete_during_sync">Slet fil hvis den ikke findes i Dropbox </string>
+    <string name="prefs_setting_summary_googlemaps_traffic">Google\'s live traffiktæthed</string>
+    <string name="prefs_setting_summary_lockpw">Vælg kode for indtillinger</string>
+    <string name="prefs_setting_summary_notification_sound">Vælg hvilken lyd der skal afspilles</string>
+    <string name="prefs_setting_summary_picklist">Denne indgang kan være en picklistekode</string>
+    <string name="prefs_setting_summary_prefix">Fast tekst foran indgangen</string>
+    <string name="prefs_setting_summary_standardvalue">Tekst når indgangen er tom</string>
+    <string name="prefs_setting_summary_suffix">Fast tekst bag indgangen</string>
+    <string name="prefs_setting_summary_wake_screen">Tænder automatisk skærmen ved ny information</string>
+    <string name="prefs_setting_title_accessplan">Tilkørselsplan</string>
+    <string name="prefs_setting_title_address">Adresse</string>
+    <string name="prefs_setting_title_autodelete">Slet sider automatisk</string>
+    <string name="prefs_setting_title_autodeletevalues">Tid for automatisk sletning</string>
+    <string name="prefs_setting_title_browser_form_autosubmit">Auto submit</string>
+    <string name="prefs_setting_title_browser_form_dialog_inputname">Angiv input element navn</string>
+    <string name="prefs_setting_title_browser_form_dialog_inputvalue">Angiv input element værdi</string>
+    <string name="prefs_setting_title_browser_form_inputname1">Navn på første input element</string>
+    <string name="prefs_setting_title_browser_form_inputname2">Anden input ElementName</string>
+    <string name="prefs_setting_title_browser_form_inputvalue1">Første input værdi</string>
+    <string name="prefs_setting_title_browser_form_inputvalue2">Anden input værdi</string>
+    <string name="prefs_setting_title_browser_setAllowFileAccess">AllowFileAccess</string>
+    <string name="prefs_setting_title_browser_setBuiltInZoomControls">BuiltInZoomControls</string>
+    <string name="prefs_setting_title_browser_setDisplayZoomControls">DisplayZoomControls</string>
+    <string name="prefs_setting_title_browser_setDomStorageEnabled">DomStorageEnabled</string>
+    <string name="prefs_setting_title_browser_setJavaScriptCanOpenWindowsAutomatically">JavaScriptCanOpenWindowsAutomatically</string>
+    <string name="prefs_setting_title_browser_setJavaScriptEnabled">JavaScriptEnabled</string>
+    <string name="prefs_setting_title_browser_setSupportZoom">SupportZoom</string>
+    <string name="prefs_setting_title_browser_url">URL addresse</string>
+    <string name="prefs_setting_title_city">By</string>
+    <string name="prefs_setting_title_dropbox_daily_sync">Synkroniser automatisk</string>
+    <string name="prefs_setting_title_dropbox_delete_during_sync">Slet filer</string>
+    <string name="prefs_setting_title_googlemaps_maptype">Kort type</string>
+    <string name="prefs_setting_title_googlemaps_traffic">Vis traffik</string>
+    <string name="prefs_setting_title_hydrants_dialog_radius">Angiv radius i meter</string>
+    <string name="prefs_setting_title_hydrants_radius">Radius for indlæsning</string>
+    <string name="prefs_setting_title_lock">Lås indstillingerne op</string>
+    <string name="prefs_setting_title_lockpw">Kode for indstillinger</string>
+    <string name="prefs_setting_title_notification_sound">Notifikations lyd</string>
+    <string name="prefs_setting_title_picklist">Pickliste</string>
+    <string name="prefs_setting_title_prefix">Prefix</string>
+    <string name="prefs_setting_title_prepoststandardvalue">præfix, postfix og standardværdi</string>
+    <string name="prefs_setting_title_standardvalue">Standardværdi</string>
+    <string name="prefs_setting_title_suffix">Suffix</string>
+    <string name="prefs_setting_title_wake_screen">Tænd skærmen</string>
+    <string name="prefs_setting_update_search">Søg efter opdatering</string>
+    <string name="prefs_setting_update_searching">Arbejder</string>
+    <string name="prefs_settings">Indstillinger</string>
+    <string name="prefs_title_dropbox">Dropbox</string>
+    <string name="prefs_title_entry1">Indstillinger for indgang 1</string>
+    <string name="prefs_title_entry10">Indstillinger for indgang 10</string>
+    <string name="prefs_title_entry2">Indstillinger for indgang 2</string>
+    <string name="prefs_title_entry3">Indstillinger for indgang 3</string>
+    <string name="prefs_title_entry4">Indstillinger for indgang 4</string>
+    <string name="prefs_title_entry5">Indstillinger for indgang 5</string>
+    <string name="prefs_title_entry6">Indstillinger for indgang 6</string>
+    <string name="prefs_title_entry7">Indstillinger for indgang 7</string>
+    <string name="prefs_title_entry8">Indstillinger for indgang 8</string>
+    <string name="prefs_title_entry9">Indstillinger for indgang 9</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="profile_already_exists">En profil med samme navn findes allerede</string>
+    <string name="profile_create">Opret profil</string>
+    <string name="profile_created">Profil oprettet</string>
+    <string name="profile_delete">Slet profil</string>
+    <string name="profile_deleted">Profil slettet</string>
+    <string name="profile_settings_loaded">Indstillingerne fra profilen er indlæst</string>
+    <string name="reading_directions">Henter rute...</string>
+    <string name="reading_hydrants">Indlæser brandhaner...</string>
+    <string name="ready">Klar</string>
+    <string name="received">Modtaget</string>
+    <string name="refresh">Opdater</string>
+    <string name="refreshing_hydrants">Genindlæser brandhaner</string>
+    <string name="refreshing_picklist">Genindlæser pickliste</string>
+    <string name="refreshing_screen">Genindlæser skærmbillede</string>
+    <string name="retry">Prøv igen</string>
+    <string name="search_hint_address">Søg adresse</string>
+    <string name="search_title">Søg</string>
+    <string name="see_details_below">Se detaljer herunder</string>
+    <string name="server_timeout">Server timeout</string>
+    <string name="set_tab_name">Angiv fanenavn</string>
+    <string name="set_url_address">Angiv URL adresse</string>
+    <string name="settings_changes_is_saving">Ændringer gemmes</string>
+    <string name="settings_loaded">Indstillinger indlæst</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_setup.xml -->
+    <eat-comment/>
+    <string name="setup_back">Tilbage</string>
+    <string name="setup_continue">Næste</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="show">Vis</string>
+    <string name="status">Status</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <eat-comment/>
+    <string name="status_category">status_category</string>
+    <string name="status_checkbox">status_checkbox</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="storage">Lagring</string>
+    <string name="sync_complete">Synkronisering fuldført!</string>
+    <string name="sync_started">Synkronisering startet!</string>
+    <string name="tab_name">Fanenavn</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="textOff">OFF</string>
+    <string name="textOn">ON</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="trial_expired">Prøveperioden er udløbet!</string>
+    <string name="trial_version">%1$d dage tilbage af prøveperioden</string>
+    <string name="turios">Turios</string>
+    <string name="turios_is_up_to_date">Turios er fuldt opdateret</string>
+    <string name="turnout_addition">Tilføjelse til udrykning</string>
+    <string name="unable_to_contact_server">Kunne ikke kontakte serveren</string>
+    <string name="unable_to_determine_current_location">Kunne ikke anvende internet eller GPS til at bestemme nuværende placering. Dette er muligvis ikke tilladt under enhedens indstillinger.</string>
+    <string name="unlocked">Slået til</string>
+    <string name="update_directions">Opdater rute</string>
+    <string name="update_found">Opdatering fundet</string>
+    <string name="updated">opdateret</string>
+    <string name="url_address">URL adresse</string>
+    <string name="working_please_wait">Arbejder. Vent venligst...</string>
+    <string name="wrong_password">Forkert kodeord</string>
+    <string name="zoom">Zoom</string>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_turiosthemeactionbarlight</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_turiosthemeactionbarlight</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_turiosthemeactionbarlight</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Turiosthemeactionbarlight</item>
+    </style>
+    <style name="ActionBar.Transparent.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_turiosthemeactionbarlight</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Turiosthemeactionbarlight</item>
+    </style>
+    <style name="ActionBarTabStyle.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_turiosthemeactionbarlight</item>
+    </style>
+    <style name="ActionButton.CloseMode.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_turiosthemeactionbarlight</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppThemeDark" parent="@android:style/Theme.DeviceDefault">
+		<item name="switchStyle">@style/switch_dark</item>
+		<item name="textAppearance">@style/TextAppearance</item>
+	</style>
+    <style name="AppThemeLight" parent="@android:style/Theme.DeviceDefault.Light">
+		<item name="switchStyle">@style/switch_light</item>
+		<item name="textAppearance">@style/TextAppearance</item>
+	</style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="AutoCompleteTextViewTuriosThemeLight" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/turiosthemelight_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/turiosthemelight_edit_text_holo_light</item>
+  </style>
+    <style name="ButtonTuriosThemeLight" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/turiosthemelight_btn_default_holo_light</item>
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DisplayStatusBar">
+        <item name="android:background">@color/DarkGrey</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_turiosthemeactionbarlight</item>
+    </style>
+    <style name="DropDownNav.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_turiosthemeactionbarlight</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_turiosthemeactionbarlight</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_turiosthemeactionbarlight</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Entry">
+        <item name="android:padding">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:background">@color/Transparent</item>
+    </style>
+    <style name="Header">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@drawable/shape_background_darkgrey</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="ImageButtonTuriosThemeLight" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/turiosthemelight_btn_default_holo_light</item>
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MapOption">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="NPWidget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+    <style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_light</item>
+    </style>
+    <style name="NPWidget.Holo.NumberPicker" parent="NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="internalMinWidth">64dip</item>
+        <item name="internalMaxHeight">180dip</item>
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style>
+    <style name="NPWidget.NumberPicker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <eat-comment/>
+    <style name="PopupMenu.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_turiosthemeactionbarlight</item>	
+    </style>
+    <style name="ProgressBar.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_turiosthemeactionbarlight</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="ProgressBarTuriosThemeLight" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/turiosthemelight_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/turiosthemelight_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+    <style name="RatingBarBigTuriosThemeLight" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/turiosthemelight_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/turiosthemelight_ratingbar_holo_light</item>
+  </style>
+    <style name="RatingBarSmallTuriosThemeLight" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/turiosthemelight_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/turiosthemelight_ratingbar_small_holo_light</item>
+  </style>
+    <style name="RatingBarTuriosThemeLight" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/turiosthemelight_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/turiosthemelight_ratingbar_full_holo_light</item>
+  </style>
+    <style name="SeekBarTuriosThemeLight" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/turiosthemelight_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/turiosthemelight_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/turiosthemelight_scrubber_control_selector_holo_light</item>
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="SetupHeader">
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+    <style name="SetupInfoBox" parent="SetupText">
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/layout_setup_infobox</item>
+    </style>
+    <style name="SetupProfile" parent="SetupText">
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:background">@drawable/layout_setup_profile</item>
+    </style>
+    <style name="SetupText">
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="SpinnerTuriosThemeLight" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/turiosthemelight_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/turiosthemelight_list_selector_holo_light</item>
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="SplashScreen" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/SplashScreenAnimation</item>
+    </style>
+    <style name="SplashScreenAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="StatusBar">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="StatusBarText">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="StatusHidden" parent="StatusBar">
+        <item name="android:background">@color/VeryDarkGrey</item>
+        <item name="android:textSize">@dimen/text_size_hidden</item>
+    </style>
+    <style name="StatusHiddenText" parent="StatusBarText">
+        <item name="android:textAppearance">@dimen/text_size_hidden</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance">
+        <item name="textColor">?android:attr/textColorPrimary</item>
+        <item name="textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="textColorHint">?android:attr/textColorHint</item>
+        <item name="textColorLink">?android:attr/textColorLink</item>
+        <item name="textSize">16sp</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <eat-comment/>
+    <style name="Theme.Turiosthemeactionbarlight" parent="@style/TuriosThemeLight">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_turiosthemeactionbarlight</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Turiosthemeactionbarlight</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Turiosthemeactionbarlight</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Turiosthemeactionbarlight</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Turiosthemeactionbarlight</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Turiosthemeactionbarlight</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_turiosthemeactionbarlight</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_turiosthemeactionbarlight</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Turiosthemeactionbarlight</item>
+        
+        
+    </style>
+    <style name="Theme.Turiosthemeactionbarlight.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Turiosthemeactionbarlight</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Turiosthemeactionbarlight</item>
+    </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="ToggleTuriosThemeLight" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/turiosthemelight_btn_toggle_holo_light</item>
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TuriosBaseTheme" parent="@style/Theme.Turiosthemeactionbarlight"/>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/themes_turiosthemelight.xml -->
+    <eat-comment/>
+    <style name="TuriosThemeLight" parent="@style/_TuriosThemeLight"/>
+    <style name="_TuriosThemeLight" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/turiosthemelight_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ff8800</item>
+    <item name="android:textSelectHandleLeft">@drawable/turiosthemelight_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/turiosthemelight_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/turiosthemelight_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewTuriosThemeLight</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/turiosthemelight_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/turiosthemelight_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonTuriosThemeLight</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonTuriosThemeLight</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerTuriosThemeLight</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarTuriosThemeLight</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarTuriosThemeLight</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarTuriosThemeLight</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigTuriosThemeLight</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallTuriosThemeLight</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleTuriosThemeLight</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/turiosthemelight_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/turiosthemelight_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/turiosthemelight_fastscroll_thumb_holo</item>
+
+  </style>
+    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="switch_dark">
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+    </style>
+    <style name="switch_light">
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="thumb">@drawable/switch_inner_holo_light</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+    </style>
+</resources>

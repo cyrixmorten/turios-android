@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="prefs_settings">Indstillinger</string>
+    <string name="prefs_advanced_settings">Avancerede indstillinger</string>
+    <string name="prefs_displaying">Visning</string>
+    
+    <string name="prefs_setting_title_lock">Lås indstillingerne op</string>
+    <string name="prefs_title_dropbox">Dropbox</string>
+    <string name="prefs_header_title_picklist">Pickliste</string>
+    <string name="prefs_header_title_accessplans">Tilkørselsplaner</string>
+    <string name="prefs_header_title_dropbox">Dropbox</string>
+    <string name="prefs_header_title_directions">Rute</string>
+
+    <!-- General -->
+    <string name="prefs_header_title_general">Generelle indstillinger</string>
+    <string name="prefs_setting_title_lockpw">Kode for indstillinger</string>
+    <string name="prefs_setting_summary_lockpw">Vælg kode for indtillinger</string>
+    <string name="prefs_category_notifications">Notifikationer</string>
+    <string name="prefs_setting_title_notification_sound">Notifikations lyd</string>
+    <string name="prefs_setting_summary_notification_sound">Vælg hvilken lyd der skal afspilles</string>
+    <string name="prefs_setting_title_wake_screen">Tænd skærmen</string>
+    <string name="prefs_setting_summary_wake_screen">Tænder automatisk skærmen ved ny information</string>
+    <!-- Connect units settings -->
+    <string name="prefs_setting_info_connect_units">Denne indstilling giver mulighed for automatisk videresendelse af alle indkommende SMS beskeder til andre enheder</string>
+    <string name="prefs_header_title_connect_units">Forbind enheder</string>
+    <string name="prefs_header_title_listentochannels">Lyt til kanaler</string>
+    <string name="prefs_header_title_sendtochannels">Send til kanaler</string>
+    <!-- Profiles -->
+    <string name="prefs_setting_info_profiles">Den valgte profil vil automatisk få synkroniseret alle sine indstillinger med alle andre enheder </string>
+    <string name="prefs_header_title_profiles">Profiler</string>
+    <string name="prefs_setting_infor_associate">Denne indstilling giver mulighed for automatisk videresendelse af alle indkommende SMS beskeder til andre enheder</string>
+    <!-- Update -->
+    <string name="prefs_header_title_update">Opdater</string>
+    <string name="prefs_setting_update_search">Søg efter opdatering</string>
+    <string name="prefs_setting_update_searching">Arbejder</string>
+    <!-- Browser settings -->
+    <string name="prefs_header_title_browser">Browser</string>
+    <string name="prefs_setting_title_browser_url">URL addresse</string>
+    <string name="prefs_setting_summary_browser_url">Vælg URL for browser</string>
+    <!-- Browser advanced -->
+    <string name="prefs_setting_title_browser_form_autosubmit">Auto submit</string>
+    <string name="prefs_setting_summary_browser_form_autosubmit">Denne funktion vil indsætte nedenstående værdier i den første form på siden, hvorefter disse submittes. \nLoalisering af elementer sker ved document.getElementByName().\nKræver javascript slået til.</string>
+    <string name="prefs_setting_title_browser_form_dialog_inputname">Angiv input element navn</string>
+    <string name="prefs_setting_title_browser_form_dialog_inputvalue">Angiv input element værdi</string>
+    <string name="prefs_setting_title_browser_form_inputname1">Navn på første input element</string>
+    <string name="prefs_setting_summary_browser_form_inputname1">Første input ElementName</string>
+    <string name="prefs_setting_title_browser_form_inputvalue1">Første input værdi</string>
+    <string name="prefs_setting_summary_browser_form_inputvalue1">Værdi til første input element</string>
+    <string name="prefs_setting_title_browser_form_inputname2">Anden input ElementName</string>
+    <string name="prefs_setting_summary_browser_form_inputname2">Navn på anden input element</string>
+    <string name="prefs_setting_title_browser_form_inputvalue2">Anden input værdi</string>
+    <string name="prefs_setting_summary_browser_form_inputvalue2">Værdi til anden input element</string>
+    <string name="prefs_setting_title_browser_setSupportZoom">SupportZoom</string>
+    <string name="prefs_setting_summary_browser_setSupportZoom">Sets whether the WebView should support zooming using its on-screen zoom controls and gestures. The particular zoom mechanisms that should be used can be set with setBuiltInZoomControls(boolean). This setting does not affect zooming performed using the zoomIn() and zoomOut() methods. The default is true.</string>
+    <string name="prefs_setting_title_browser_setBuiltInZoomControls">BuiltInZoomControls</string>
+    <string name="prefs_setting_summary_browser_setBuiltInZoomControls">Sets whether the WebView should use its built-in zoom mechanisms. The built-in zoom mechanisms comprise on-screen zoom controls, which are displayed over the WebView\'s content, and the use of a pinch gesture to control zooming. Whether or not these on-screen controls are displayed can be set with setDisplayZoomControls(boolean). The default is false.</string>
+    <string name="prefs_setting_title_browser_setDisplayZoomControls">DisplayZoomControls</string>
+    <string name="prefs_setting_summary_browser_setDisplayZoomControls">Sets whether the WebView should display on-screen zoom controls when using the built-in zoom mechanisms. See setBuiltInZoomControls(boolean). The default is true.</string>
+    <string name="prefs_setting_title_browser_setJavaScriptEnabled">JavaScriptEnabled</string>
+    <string name="prefs_setting_summary_browser_setJavaScriptEnabled">Tells the WebView to enable JavaScript execution. The default is false.</string>
+    <string name="prefs_setting_title_browser_setJavaScriptCanOpenWindowsAutomatically">JavaScriptCanOpenWindowsAutomatically</string>
+    <string name="prefs_setting_summary_browser_setJavaScriptCanOpenWindowsAutomatically">Tells JavaScript to open windows automatically. This applies to the JavaScript function window.open(). The default is false.</string>
+    <string name="prefs_setting_title_browser_setAllowFileAccess">AllowFileAccess</string>
+    <string name="prefs_setting_summary_browser_setAllowFileAccess">Enables or disables file access within WebView. File access is enabled by default. Note that this enables or disables file system access only. Assets and resources are still accessible using file:///android_asset and file:///android_res.</string>
+    <string name="prefs_setting_title_browser_setDomStorageEnabled">DomStorageEnabled</string>
+    <string name="prefs_setting_summary_browser_setDomStorageEnabled">Sets whether the DOM storage API is enabled. The default value is false.</string>
+    <!-- Google Maps -->
+    <string name="prefs_header_title_googlemaps">Google Maps</string>
+    <string name="prefs_setting_title_city">By</string>
+    <string name="prefs_setting_summary_city">Denne indgang kan være en by</string>
+    <string name="prefs_setting_title_address">Adresse</string>
+    <string name="prefs_setting_summary_address">Denne indgang kan være en adresse</string>
+    <string name="prefs_setting_title_googlemaps_maptype">Kort type</string>
+    <string name="prefs_setting_title_googlemaps_traffic">Vis traffik</string>
+    <string name="prefs_setting_summary_googlemaps_traffic">Google\&apos;s live traffiktæthed</string>
+    <!-- Hydrants -->
+    <string name="prefs_header_title_hydrants">Brandhaner</string>
+    <string name="prefs_setting_title_hydrants_radius">Radius for indlæsning</string>
+    <string name="prefs_setting_title_hydrants_dialog_radius">Angiv radius i meter</string>
+    <!-- Basis -->
+    <string name="prefs_header_title_basis">Basis</string>
+    <string name="prefs_header_title_entries">Indgange</string>
+    <string name="prefs_setting_title_prepoststandardvalue">præfix, postfix og standardværdi</string>
+    <string name="prefs_setting_title_autodelete">Slet sider automatisk</string>
+    <string name="prefs_setting_summary_autodelete">Slet sider efter et valgt antal minutter</string>
+    <string name="prefs_setting_title_autodeletevalues">Tid for automatisk sletning</string>
+    <string name="prefs_setting_summary_autodeletevalues">Vælg hvor lang tid der skal gå før sider slettes</string>
+    <!-- Entries -->
+    <string name="prefs_category_title_entries">Indgangs indstillinger</string>
+    <string name="prefs_category_summary_entries">Vælg den indgang du ønsker at ændre indstillinger for</string>
+    <string name="prefs_setting_title_standardvalue">Standardværdi</string>
+    <string name="prefs_setting_summary_standardvalue">Tekst når indgangen er tom</string>
+    <string name="prefs_setting_title_prefix">Prefix</string>
+    <string name="prefs_setting_summary_prefix">Fast tekst foran indgangen</string>
+    <string name="prefs_setting_title_suffix">Suffix</string>
+    <string name="prefs_setting_summary_suffix">Fast tekst bag indgangen</string>
+    <string name="prefs_entry1">Indgang 1</string>
+    <string name="prefs_entry2">Indgang 2</string>
+    <string name="prefs_entry3">Indgang 3</string>
+    <string name="prefs_entry4">Indgang 4</string>
+    <string name="prefs_entry5">Indgang 5</string>
+    <string name="prefs_entry6">Indgang 6</string>
+    <string name="prefs_entry7">Indgang 7</string>
+    <string name="prefs_entry8">Indgang 8</string>
+    <string name="prefs_entry9">Indgang 9</string>
+    <string name="prefs_entry10">Indgang 10</string>
+    <string name="prefs_title_entry1">Indstillinger for indgang 1</string>
+    <string name="prefs_title_entry2">Indstillinger for indgang 2</string>
+    <string name="prefs_title_entry3">Indstillinger for indgang 3</string>
+    <string name="prefs_title_entry4">Indstillinger for indgang 4</string>
+    <string name="prefs_title_entry5">Indstillinger for indgang 5</string>
+    <string name="prefs_title_entry6">Indstillinger for indgang 6</string>
+    <string name="prefs_title_entry7">Indstillinger for indgang 7</string>
+    <string name="prefs_title_entry8">Indstillinger for indgang 8</string>
+    <string name="prefs_title_entry9">Indstillinger for indgang 9</string>
+    <string name="prefs_title_entry10">Indstillinger for indgang 10</string>
+    <!-- Picklist -->
+    <string name="prefs_setting_title_picklist">Pickliste</string>
+    <string name="prefs_setting_summary_picklist">Denne indgang kan være en picklistekode</string>
+    <!-- Accessplan -->
+    <string name="prefs_setting_title_accessplan">Tilkørselsplan</string>
+    <string name="prefs_setting_summary_accessplan">Denne indgang kan være en tilkørselsplan</string>
+    <!-- Dropbox -->
+    <string name="prefs_setting_title_dropbox_daily_sync">Synkroniser automatisk</string>
+    <string name="prefs_setting_summary_dropbox_daily_sync">Synkroniser en gang i døgnet</string>
+    <string name="prefs_setting_title_dropbox_delete_during_sync">Slet filer</string>
+    <string name="prefs_setting_summary_dropbox_delete_during_sync">Slet fil hvis den ikke findes i Dropbox </string>
+    
+
+</resources>

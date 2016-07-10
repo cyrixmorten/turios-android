@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-334159f905fedc17c0e0ae8b8bd85d9761576278.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/javax.inject-1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/javax.inject-1-7833c088344eeaaaf08d8c5c9b9d7cbedf71229e.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6aa4e353373cad80af80fc7fe24dbc3d9adbf447">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-396b597d66948b984c34eb6e19b22b68a47bbed6.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/javawriter-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="08c906ceb13855dbc1398a0953ab998189c16870">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/javawriter-2.4.0-8e0d292de3550a7c56275a792238a5297280a7ae.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-7d62b0828376c50866eac6aed4849545b2146588.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-db9a7283b1789357159def675b54b917d6111053.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/butterknife-4.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f43b36925363701633d01adb8e54df7150397a78">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/butterknife-4.0.1-c76b4ceb0d1e24c704bd0873508312ee2b4d067d.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/Parse-1.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="252966134eb47bcd33407adc5c3d0b20a21128a9">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/Parse-1.3.8-91d3599814becf15d70305cf4d9d3adb27192780.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dagger-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="adec009bc3b39d0cbd7ec96ef6014667a3a8f147">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dagger-1.2.0-22cee1a84b8b2bb3ba1f8f8d36aa065481b8a1a9.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a40ecbe8fdcd04a97047b60832204366a42dcf37">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-d2d6cbdd92784ca29c86003031e153d34b3b172f.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c782ffcf51e39c94bf918c1e61e8d8aff7109985">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-0843c853ee501c1803dd5eb68ae4b65a29cf5c49.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-4b16f5bd1dfc5d9d552ee9cff5a25cef3050d2b2.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-fbf6db1238697b9973f17ce5a8ec3e9e2ab433c0.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dropbox-sync-sdk-android-c179d0b75617bbb96c258eeef49bccc6d9cfa952.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/android-maps-extensions-2.1.0-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e56b9cbd1c4cc9b6c489cf207a862c250b2cc38f">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/android-maps-extensions-2.1.0-sources-c68ac5719b17e5bf65a522f674508d6fb8e4a4a3.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-d4ef1ad849145f0d60be9ec50f39409f4402ebde.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/CWAC-WakefulIntentService.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b919be8e51da4425e3562f93e0f5aa26b47fce5">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/CWAC-WakefulIntentService-9ea8dd58d5f4b8e1d14126c70424c4f6da51cbeb.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dagger-compiler-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="022633bb84433e03d345a83e7b0c08c66768be30">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.0-019577482a072b70194f0586e2dadd755d799e81.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/crashlytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/crashlytics-b8a13e27612da39bcd2910a72b2c76a0bc8c2301.jar" />
+    </item>
+    <item
+        jar="/home/cyrix/Development/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-58597b7310e2732a421f6f56bbad39b3db8073de.jar" />
+    </item>
+
+</items>

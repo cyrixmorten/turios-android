@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <EditTextPreference
+            android:enabled="false"
+            android:key="@string/key_update_info"
+            android:summary=""
+            android:title="" />
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="@string/key_update"
+            android:defaultValue="false"
+            android:summaryOn="@string/prefs_setting_update_searching" 
+            android:summaryOff="@string/prefs_setting_update_search"/>
+
+</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_update.xml -->

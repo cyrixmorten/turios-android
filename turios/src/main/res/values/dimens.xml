@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_icon_width">28dp</dimen>
+    <dimen name="display_size">600dp</dimen>
+	<dimen name="text_size">25sp</dimen>
+	<dimen name="text_size_hidden">15sp</dimen>
+</resources>

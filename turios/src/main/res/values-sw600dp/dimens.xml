@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="display_size">600dp</dimen>
+	<dimen name="text_size">40sp</dimen>
+	<dimen name="text_size_hidden">25sp</dimen>
+</resources>

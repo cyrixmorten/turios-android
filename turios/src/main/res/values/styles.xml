@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <style name="TuriosBaseTheme" parent="@style/Theme.Turiosthemeactionbarlight"></style>
+
+
+    <style name="SplashScreen" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/SplashScreenAnimation</item>
+    </style>
+
+    <style name="SplashScreenAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@drawable/shape_background_darkgrey</item>
+    </style>
+
+    <style name="DisplayStatusBar">
+        <item name="android:background">@color/DarkGrey</item>
+    </style>
+
+    <style name="StatusBarText">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="StatusBar">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="StatusHidden" parent="StatusBar">
+        <item name="android:background">@color/VeryDarkGrey</item>
+        <item name="android:textSize">@dimen/text_size_hidden</item>
+    </style>
+
+    <style name="StatusHiddenText" parent="StatusBarText">
+        <item name="android:textAppearance">@dimen/text_size_hidden</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="MapOption">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Entry">
+        <item name="android:padding">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">left</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:background">@color/Transparent</item>
+    </style>
+
+    <style name="SetupHeader">
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="SetupText">
+        <item name="android:shadowColor">@color/Grey</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="SetupProfile" parent="SetupText">
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:background">@drawable/layout_setup_profile</item>
+    </style>
+
+    <style name="SetupInfoBox" parent="SetupText">
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/layout_setup_infobox</item>
+    </style>
+
+</resources>

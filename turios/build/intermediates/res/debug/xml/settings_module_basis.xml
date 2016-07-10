@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/status_category"
+        android:shouldDisableView="false"
+        android:title="@string/module_status" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:enabled="false"
+            android:key="@string/key_module_activated_basis"
+            android:switchTextOff="@string/deactive"
+            android:switchTextOn="@string/active" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_module_activated_basis"
+            android:enabled="false"
+            android:key="@string/status_checkbox"
+            android:selectable="false"
+            android:summary="@string/please_wait"
+            android:title="@string/checking" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_displaying" >
+        <EditTextPreference
+            android:defaultValue="@string/turios"
+            android:dialogTitle="@string/set_tab_name"
+            android:enabled="false"
+            android:key="@string/key_basis_tabname"
+            android:title="@string/tab_name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_autodelete"
+            android:title="@string/prefs_setting_title_autodelete" />
+
+        <ListPreference
+            android:defaultValue="900000"
+            android:dependency="@string/key_autodelete"
+            android:entries="@array/autodelete_interval"
+            android:entryValues="@array/autodelete_interval_values"
+            android:key="@string/key_autodelete_values"
+            android:title="@string/prefs_setting_title_autodeletevalues" >
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_setting_title_prepoststandardvalue" >
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_1"
+            android:title="@string/prefs_entry1" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="1" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_2"
+            android:title="@string/prefs_entry2" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="2" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_3"
+            android:title="@string/prefs_entry3" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="3" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_4"
+            android:title="@string/prefs_entry4" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="4" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_5"
+            android:title="@string/prefs_entry5" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="5" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_6"
+            android:title="@string/prefs_entry6" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="6" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_7"
+            android:title="@string/prefs_entry7" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="7" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_8"
+            android:title="@string/prefs_entry8" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="8" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_9"
+            android:title="@string/prefs_entry9" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="9" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.turios.settings.modules.BasisEntrySettings"
+            android:key="entry_10"
+            android:title="@string/prefs_entry10" >
+            <extra
+                android:name="@string/key_entry"
+                android:value="10" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_module_basis.xml -->

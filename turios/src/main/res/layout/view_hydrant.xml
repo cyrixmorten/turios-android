@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_hydrantType"
+        style="@style/StatusHidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="10dp"
+        android:text="A"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_hydrantAddress"
+        style="@style/StatusHidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_hydrantType"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/tv_hydrantDistance"
+        android:layout_toRightOf="@+id/tv_hydrantType"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Addresse indtastes her"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/tv_hydrantDistance"
+        style="@style/StatusHidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_hydrantAddress"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Afstand"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

@@ -7,4 +7,4 @@
         android:angle="90"
      />
     <corners android:radius="0dp" />
-</shape><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/shape_background_darkgrey.xml -->
+</shape><!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/shape_background_darkgrey.xml -->

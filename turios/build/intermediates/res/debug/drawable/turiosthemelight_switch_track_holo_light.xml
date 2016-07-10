@@ -18,4 +18,4 @@
     <item android:state_focused="true"  android:drawable="@drawable/turiosthemelight_switch_bg_focused_holo_light" />
     <item                               android:drawable="@drawable/turiosthemelight_switch_bg_holo_light" />
 </selector>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/turiosthemelight_switch_track_holo_light.xml -->
+<!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/turiosthemelight_switch_track_holo_light.xml -->

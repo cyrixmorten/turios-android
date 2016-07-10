@@ -59,4 +59,4 @@
         android:inputType="textPassword" >
     </EditText>
 
-</RelativeLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/dialog_parselogin.xml -->
+</RelativeLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/dialog_parselogin.xml -->

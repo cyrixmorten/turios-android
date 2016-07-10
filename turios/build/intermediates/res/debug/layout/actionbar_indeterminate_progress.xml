@@ -7,4 +7,4 @@
         android:layout_height="32dp"
         android:layout_gravity="center"
         style="?android:attr/indeterminateProgressStyle" />
-</FrameLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/actionbar_indeterminate_progress.xml -->
+</FrameLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/actionbar_indeterminate_progress.xml -->

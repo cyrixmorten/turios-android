@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/numberPickerCompatLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/numberPickerCompatLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="numberPickerStyle"/>
     <color name="transparent">#00000000</color>

@@ -17,4 +17,4 @@
         android:showAsAction="ifRoom|withText"
         android:title="@string/refresh"/>
 
-</menu><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/menu/menu_add_delete_refresh.xml -->
+</menu><!-- From: file:/home/cyrix/turios/turios/src/main/res/menu/menu_add_delete_refresh.xml -->

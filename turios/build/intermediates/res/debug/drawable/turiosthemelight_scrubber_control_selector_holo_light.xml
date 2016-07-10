@@ -20,4 +20,4 @@
     <item android:state_selected="true" android:drawable="@drawable/turiosthemelight_scrubber_control_focused_holo" />
     <item android:drawable="@drawable/turiosthemelight_scrubber_control_normal_holo" />
 </selector>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/turiosthemelight_scrubber_control_selector_holo_light.xml -->
+<!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/turiosthemelight_scrubber_control_selector_holo_light.xml -->

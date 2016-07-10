@@ -64,4 +64,4 @@
         android:background="@drawable/shape_background_darkgrey"
         android:padding="5dp" />
 
-</RelativeLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout-w1280dp/activity_turios.xml -->
+</RelativeLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout-w1280dp/activity_turios.xml -->

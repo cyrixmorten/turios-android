@@ -37,4 +37,4 @@
         android:showAsAction="always"
         android:title="@string/search_title"/>
 
-</menu><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/menu/menu_googlemaps.xml -->
+</menu><!-- From: file:/home/cyrix/turios/turios/src/main/res/menu/menu_googlemaps.xml -->

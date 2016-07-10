@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/cyrix/AndroidstudioProjects/Turios/switchCompatLibrary/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/cyrix/AndroidstudioProjects/Turios/switchCompatLibrary/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/cyrix/turios/switchCompatLibrary/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/cyrix/turios/switchCompatLibrary/src/debug/assets"/></dataSet></merger>

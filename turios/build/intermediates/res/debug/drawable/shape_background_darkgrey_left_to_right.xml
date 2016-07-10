@@ -6,4 +6,4 @@
         android:endColor="#00666666" 
      />
     <corners android:radius="0dp" />
-</shape><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/shape_background_darkgrey_left_to_right.xml -->
+</shape><!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/shape_background_darkgrey_left_to_right.xml -->

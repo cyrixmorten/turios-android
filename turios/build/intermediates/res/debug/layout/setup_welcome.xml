@@ -60,4 +60,4 @@
             android:text="@string/setup_continue" />
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/setup_welcome.xml -->
+</LinearLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/setup_welcome.xml -->

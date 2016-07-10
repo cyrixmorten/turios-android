@@ -149,4 +149,4 @@
             android:title="Test opsætning af informationer" /> -->
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_module_hydrants.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_module_hydrants.xml -->

@@ -45,4 +45,4 @@
         android:icon="@android:drawable/ic_menu_view"
         android:title="@string/prefs_header_title_browser" />
 
-</preference-headers><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_headers.xml -->
+</preference-headers><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_headers.xml -->

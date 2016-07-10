@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values-sw600dp/dimens.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values-sw600dp/dimens.xml -->
     <eat-comment/>
     <dimen name="display_size">600dp</dimen>
     <dimen name="text_size">40sp</dimen>
     <dimen name="text_size_hidden">25sp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values-sw600dp/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values-sw600dp/styles.xml -->
     <eat-comment/>
     <style name="StatusHiddenText" parent="StatusBarText">
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>

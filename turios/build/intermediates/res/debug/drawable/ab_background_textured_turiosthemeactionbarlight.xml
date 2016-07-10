@@ -18,4 +18,4 @@
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ab_texture_tile_turiosthemeactionbarlight"
-    android:tileMode="repeat" /><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/ab_background_textured_turiosthemeactionbarlight.xml -->
+    android:tileMode="repeat" /><!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/ab_background_textured_turiosthemeactionbarlight.xml -->

@@ -18,4 +18,4 @@
     <item android:drawable="@drawable/list_pressed_holo_dark"  />
     <item android:drawable="@drawable/list_longpressed_holo"  />
 </transition>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/numberPickerCompatLibrary/src/main/res/drawable/list_selector_background_transition_holo_dark.xml --><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/drawable/list_selector_background_transition_holo_dark.xml -->
+<!-- From: file:/home/cyrix/turios/numberPickerCompatLibrary/src/main/res/drawable/list_selector_background_transition_holo_dark.xml --><!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/drawable/list_selector_background_transition_holo_dark.xml -->

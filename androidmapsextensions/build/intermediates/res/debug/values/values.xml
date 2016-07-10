@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/androidmapsextensions/src/main/res/values/ame_default_cluster_colors.xml -->
+    <!-- From: file:/home/cyrix/turios/androidmapsextensions/src/main/res/values/ame_default_cluster_colors.xml -->
     <eat-comment/>
     <color name="ame_default_cluster_circle_color_extra_large">#FFFF00ED</color>
     <color name="ame_default_cluster_circle_color_large">#FFFF0000</color>
@@ -9,7 +9,7 @@
     <color name="ame_default_cluster_circle_shadow_color">#8000</color>
     <color name="ame_default_cluster_text_color">#FFF</color>
     <color name="ame_default_cluster_text_shadow_color">#000</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
+    <!-- From: file:/home/cyrix/turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -23,7 +23,7 @@
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/androidmapsextensions/src/main/res/values/ame_default_cluster_values.xml -->
+    <!-- From: file:/home/cyrix/turios/androidmapsextensions/src/main/res/values/ame_default_cluster_values.xml -->
     <eat-comment/>
     <dimen name="ame_default_cluster_circle_blur_radius">5dp</dimen>
     <dimen name="ame_default_cluster_circle_shadow_blur_radius">1dp</dimen>
@@ -34,10 +34,10 @@
     <dimen name="ame_default_cluster_text_shadow_offset_x">1dp</dimen>
     <dimen name="ame_default_cluster_text_shadow_offset_y">1dp</dimen>
     <dimen name="ame_default_cluster_text_size">16dp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/version.xml -->
+    <!-- From: file:/home/cyrix/turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">6587000</integer>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_strings.xml -->
+    <!-- From: file:/home/cyrix/turios/androidmapsextensions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>

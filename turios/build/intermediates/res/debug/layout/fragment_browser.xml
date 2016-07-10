@@ -6,4 +6,4 @@
     android:id="@+id/webView" >
     
 
-</WebView><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/fragment_browser.xml -->
+</WebView><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/fragment_browser.xml -->

@@ -131,4 +131,4 @@
             android:title="@string/prefs_setting_title_browser_setDomStorageEnabled" />
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_module_browser.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_module_browser.xml -->

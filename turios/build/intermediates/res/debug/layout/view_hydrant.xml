@@ -45,4 +45,4 @@
         android:text="Afstand"
         android:textColor="@color/White" />
 
-</RelativeLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/view_hydrant.xml -->
+</RelativeLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/view_hydrant.xml -->

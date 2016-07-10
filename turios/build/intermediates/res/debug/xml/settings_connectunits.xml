@@ -8,4 +8,4 @@
         <PreferenceCategory android:key="@string/category2" android:title="@string/prefs_header_title_listentochannels" >
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_connectunits.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_connectunits.xml -->

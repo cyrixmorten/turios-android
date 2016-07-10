@@ -23,4 +23,4 @@
             android:summary="@string/prefs_setting_summary_wake_screen"/>
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_general.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_general.xml -->

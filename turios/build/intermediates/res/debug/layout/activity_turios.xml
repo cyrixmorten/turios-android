@@ -33,4 +33,4 @@
 	        android:background="@drawable/shape_background_darkgrey"
 	        android:padding="5dp" />
 	
-	</FrameLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/activity_turios.xml -->
+	</FrameLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/activity_turios.xml -->

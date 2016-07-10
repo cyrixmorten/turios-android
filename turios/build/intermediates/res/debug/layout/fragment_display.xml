@@ -168,4 +168,4 @@
         android:text="@string/no_information"
         android:textColor="?android:textColorSecondary" />
 
-</FrameLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/fragment_display.xml -->
+</FrameLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/fragment_display.xml -->

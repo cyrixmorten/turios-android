@@ -24,4 +24,4 @@
     <item android:state_focused="true"                                                             android:drawable="@drawable/list_focused_holo" />
     <item                                                                                          android:drawable="@color/transparent" />
 </selector>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/numberPickerCompatLibrary/src/main/res/drawable/item_background_holo_light.xml --><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/drawable/item_background_holo_light.xml -->
+<!-- From: file:/home/cyrix/turios/numberPickerCompatLibrary/src/main/res/drawable/item_background_holo_light.xml --><!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/drawable/item_background_holo_light.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/switchCompatLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/switchCompatLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="switchStyle"/>
     <attr format="reference" name="textAppearance"/>

@@ -19,4 +19,4 @@
             android:title="@string/prefs_setting_title_suffix" />
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_entry_5.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_entry_5.xml -->

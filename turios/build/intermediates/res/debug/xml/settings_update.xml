@@ -13,4 +13,4 @@
             android:summaryOn="@string/prefs_setting_update_searching" 
             android:summaryOff="@string/prefs_setting_update_search"/>
 
-</PreferenceScreen><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/xml/settings_update.xml -->
+</PreferenceScreen><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/settings_update.xml -->

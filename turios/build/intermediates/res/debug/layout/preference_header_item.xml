@@ -49,4 +49,4 @@
             android:textAppearance="?android:attr/textAppearanceSmall" />
     </RelativeLayout>
 
-</LinearLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/preference_header_item.xml -->
+</LinearLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/preference_header_item.xml -->

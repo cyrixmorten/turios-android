@@ -26,4 +26,4 @@
         android:drawable="@drawable/spinner_ab_focused_turiosthemeactionbarlight" />
     <item android:drawable="@drawable/spinner_ab_default_turiosthemeactionbarlight" />
 </selector>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/spinner_background_ab_turiosthemeactionbarlight.xml -->
+<!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/spinner_background_ab_turiosthemeactionbarlight.xml -->

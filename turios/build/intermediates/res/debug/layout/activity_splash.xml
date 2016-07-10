@@ -32,4 +32,4 @@
         android:layout_alignLeft="@+id/imgLogo"
         android:layout_below="@+id/imgLogo" />
 
-</RelativeLayout><!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/layout/activity_splash.xml -->
+</RelativeLayout><!-- From: file:/home/cyrix/turios/turios/src/main/res/layout/activity_splash.xml -->

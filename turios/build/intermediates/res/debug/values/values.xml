@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="actionbar_list">
         <item name="Turios">Turios</item>
@@ -64,22 +64,22 @@
         <item name="2">2</item>
         <item name="3">3</item>
     </string-array>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="numberPickerStyle"/>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="switchStyle"/>
     <attr format="reference" name="textAppearance"/>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/analytics.xml -->
     <eat-comment/>
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_debug">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/layouts.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/layouts.xml -->
     <eat-comment/>
     <bool name="has_two_panes">false</bool>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="Black">#000</color>
     <color name="DarkGrey">#4F4F4F</color>
@@ -91,7 +91,7 @@
     <color name="TransparentGrey">#7F000000</color>
     <color name="VeryDarkGrey">#333</color>
     <color name="White">#FFF</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/androidmapsextensions/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="ame_default_cluster_circle_color_extra_large">#FFFF00ED</color>
     <color name="ame_default_cluster_circle_color_large">#FFFF0000</color>
@@ -100,7 +100,7 @@
     <color name="ame_default_cluster_circle_shadow_color">#8000</color>
     <color name="ame_default_cluster_text_color">#FFF</color>
     <color name="ame_default_cluster_text_shadow_color">#000</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -112,16 +112,16 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiosactionbartheme.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/colors_turiosactionbartheme.xml -->
     <eat-comment/>
     <color name="pressed_turiosactionbartheme">#CCFF8800</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="transparent">#00000000</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiostheme.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/colors_turiostheme.xml -->
     <eat-comment/>
     <color name="turiostheme_color">#ff8800</color>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/colors_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/colors_turiosthemelight.xml -->
     <eat-comment/>
     <color name="turiosthemelight_color">#ff8800</color>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
@@ -131,7 +131,7 @@
     <declare-styleable name="SeekBarDialogPreference"><attr name="android:max"/><attr format="integer" name="seek_min"/><attr format="string" name="progressTextSuffix"/></declare-styleable>
     <declare-styleable name="Switch"><attr format="reference" name="thumb"/><attr format="reference" name="track"/><attr format="string" name="textOn"/><attr format="string" name="textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/></declare-styleable>
     <declare-styleable name="TextAppearanceSwitch"><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="reference" name="textStyle"/><attr format="reference" name="typeface"/><attr format="reference" name="fontFamily"/><attr format="color" name="textColorHighlight"/><attr format="color" name="textColorHint"/><attr format="color" name="textColorLink"/><attr format="boolean" name="textAllCaps"/></declare-styleable>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/androidmapsextensions/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="ame_default_cluster_circle_blur_radius">5dp</dimen>
     <dimen name="ame_default_cluster_circle_shadow_blur_radius">1dp</dimen>
@@ -142,38 +142,38 @@
     <dimen name="ame_default_cluster_text_shadow_offset_x">1dp</dimen>
     <dimen name="ame_default_cluster_text_shadow_offset_y">1dp</dimen>
     <dimen name="ame_default_cluster_text_size">16dp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="display_size">600dp</dimen>
     <dimen name="header_icon_width">28dp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens_turiostheme.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/dimens_turiostheme.xml -->
     <eat-comment/>
     <dimen name="tab_host_default_height">48dp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="text_size">25sp</dimen>
     <dimen name="text_size_hidden">15sp</dimen>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/tags.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/tags.xml -->
     <eat-comment/>
     <item name="TAG_DATA_PDF" type="id">5</item>
     <item name="TAG_DATA_READY" type="id">4</item>
     <item name="TAG_EXPANDED" type="id">1</item>
     <item name="TAG_ORIGINAL_HEIGHT" type="id">2</item>
     <item name="TAG_TIMERECEIVED" type="id">3</item>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <item name="np__decrement" type="id"/>
     <item name="np__increment" type="id"/>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/version.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">6587000</integer>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/standardvalues.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/standardvalues.xml -->
     <eat-comment/>
     <integer name="hydrant_radius">300</integer>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/layouts.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/layouts.xml -->
     <eat-comment/>
     <item name="main_layout" type="layout">@layout/activity_turios</item>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Default">Standard</string>
     <string name="Every">Hvert</string>
@@ -184,11 +184,11 @@
     <string name="all_hydrants">Alle brandhaner</string>
     <string name="app_name">Turios</string>
     <string name="cannot_delay_page_delete_twice">Denne side er allerede blevet udsat</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_prefskeys.xml -->
     <eat-comment/>
     <string name="category1">category1</string>
     <string name="category2">category2</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="channel_create">Opret kanal</string>
     <string name="channel_created">Kanal oprettet</string>
@@ -198,21 +198,21 @@
     <string name="channel_not_listening_to">Lytter ikke længere til kanal %1$s</string>
     <string name="channel_not_sending_to">Sender ikke længere til kanal %1$s</string>
     <string name="channel_sending_to">Sender nu til kanal %1$s</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_modulecheck.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_modulecheck.xml -->
     <eat-comment/>
     <string name="check_module_disabled">Modulet er slået fra</string>
     <string name="check_module_not_paid">Der er ikke betalt for dette modul</string>
     <string name="check_not_enabled">Ikke slået til</string>
     <string name="check_not_paid">Ikke betalt</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="checking">Kontrollerer</string>
     <string name="choose_a_maptype">Angiv kort type</string>
     <string name="choose_an_entry">Vælg en indgang</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/com_crashlytics_export_strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/com_crashlytics_export_strings.xml -->
     <eat-comment/>
     <string name="com.crashlytics.android.build_id" translatable="false">208f71bb-fefe-417f-9dd6-471d385ae66f</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
@@ -242,7 +242,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="confirm_delete">Vil du virkelig slette %1$s?</string>
     <string name="confirm_delete_page">Ønsker du at fjerne siden?</string>
@@ -253,11 +253,11 @@
     <string name="could_not_locate_file">Kunne ikke finde filen</string>
     <string name="created">oprettet</string>
     <string name="current_version">Nuværende version</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/analytics.xml -->
     <eat-comment/>
     <string name="cyrix.turios.activities.Turios">Home</string>
     <string name="cyrix.turios.settings.SettingsActivity">Preferences</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="deactive">Deaktiveret</string>
     <string name="default_url_address">www.turios.dk/category/blog/</string>
@@ -284,10 +284,10 @@
     <string name="error_smsreceived_trial_expired">SMS modtaget, men prøveversion udløbet!</string>
     <string name="file_successfully_downloaded">Filen er nu downloaded</string>
     <string name="form">Form</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/analytics.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/analytics.xml -->
     <eat-comment/>
     <string name="ga_trackingId">UA-42903975-2</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="get_directions">Vis vej</string>
     <string name="global">Globale</string>
@@ -299,7 +299,7 @@
     <string name="invalid_data">Ugyldig data</string>
     <string name="is_deleted">slettes</string>
     <string name="javascript">Javascript</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_prefskeys.xml -->
     <eat-comment/>
     <string name="key_accessplan_entry">key_accessplan_entry</string>
     <string name="key_autodelete">key_autodelete</string>
@@ -398,7 +398,7 @@
     <string name="key_update_info">key_update_info</string>
     <string name="key_username">key_username</string>
     <string name="key_wakescreen">key_wakescreen</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="loaded_dropboxpreferences">Indstillinger fra dropbox er nu indlæst</string>
     <string name="loading">Indlæser...</string>
@@ -413,10 +413,10 @@
     <string name="missing_address_position">Mangler position for adresse %1$s %2$s</string>
     <string name="missing_hydrants">Mangler brandhaner</string>
     <string name="missing_internet_connection">Mangler internet forbindelse</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_setup.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_setup.xml -->
     <eat-comment/>
     <string name="missing_name">Mangler navn</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="missingsd">Mangler SD-kort</string>
     <string name="module_accessplan">Tilkørselsplan</string>
@@ -448,7 +448,7 @@
     <string name="please_wait">Vent venligst...</string>
     <string name="preferences_file_found">Indstillings fil fundet</string>
     <string name="preferences_file_found_dropbox">Der blev fundet en fil med indstillinger fra Dropbox, skal de nuværende indstillinger overskrives med disse?</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefs.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_prefs.xml -->
     <eat-comment/>
     <string name="prefs_advanced_settings">Avancerede indstillinger</string>
     <string name="prefs_category_notifications">Notifikationer</string>
@@ -560,7 +560,7 @@
     <string name="prefs_title_entry7">Indstillinger for indgang 7</string>
     <string name="prefs_title_entry8">Indstillinger for indgang 8</string>
     <string name="prefs_title_entry9">Indstillinger for indgang 9</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="profile_already_exists">En profil med samme navn findes allerede</string>
     <string name="profile_create">Opret profil</string>
@@ -585,29 +585,29 @@
     <string name="set_url_address">Angiv URL adresse</string>
     <string name="settings_changes_is_saving">Ændringer gemmes</string>
     <string name="settings_loaded">Indstillinger indlæst</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_setup.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_setup.xml -->
     <eat-comment/>
     <string name="setup_back">Tilbage</string>
     <string name="setup_continue">Næste</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="show">Vis</string>
     <string name="status">Status</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings_prefskeys.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings_prefskeys.xml -->
     <eat-comment/>
     <string name="status_category">status_category</string>
     <string name="status_checkbox">status_checkbox</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="storage">Lagring</string>
     <string name="sync_complete">Synkronisering fuldført!</string>
     <string name="sync_started">Synkronisering startet!</string>
     <string name="tab_name">Fanenavn</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="textOff">OFF</string>
     <string name="textOn">ON</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="trial_expired">Prøveperioden er udløbet!</string>
     <string name="trial_version">%1$d dage tilbage af prøveperioden</string>
@@ -624,7 +624,7 @@
     <string name="working_please_wait">Arbejder. Vent venligst...</string>
     <string name="wrong_password">Forkert kodeord</string>
     <string name="zoom">Zoom</string>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
     <eat-comment/>
     <style name="ActionBar.Solid.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
         <item name="android:background">@drawable/ab_solid_turiosthemeactionbarlight</item>
@@ -642,7 +642,7 @@
     <style name="ActionButton.CloseMode.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
         <item name="android:background">@drawable/btn_cab_done_turiosthemeactionbarlight</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="AppThemeDark" parent="@android:style/Theme.DeviceDefault">
 		<item name="switchStyle">@style/switch_dark</item>
@@ -652,7 +652,7 @@
 		<item name="switchStyle">@style/switch_light</item>
 		<item name="textAppearance">@style/TextAppearance</item>
 	</style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
     <eat-comment/>
     <style name="AutoCompleteTextViewTuriosThemeLight" parent="android:Widget.Holo.Light.AutoCompleteTextView">
       <item name="android:dropDownSelector">@drawable/turiosthemelight_list_selector_holo_light</item>
@@ -661,12 +661,12 @@
     <style name="ButtonTuriosThemeLight" parent="android:Widget.Holo.Light.Button">
 	  <item name="android:background">@drawable/turiosthemelight_btn_default_holo_light</item>
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="DisplayStatusBar">
         <item name="android:background">@color/DarkGrey</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
     <eat-comment/>
     <style name="DropDownListView.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_turiosthemeactionbarlight</item>
@@ -676,7 +676,7 @@
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_turiosthemeactionbarlight</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_turiosthemeactionbarlight</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Entry">
         <item name="android:padding">5dp</item>
@@ -699,12 +699,12 @@
         <item name="android:textColor">@color/White</item>
         <item name="android:background">@drawable/shape_background_darkgrey</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
     <eat-comment/>
     <style name="ImageButtonTuriosThemeLight" parent="android:Widget.Holo.Light.ImageButton">
 	  <item name="android:background">@drawable/turiosthemelight_btn_default_holo_light</item>
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="MapOption">
         <item name="android:textColor">@color/Black</item>
@@ -713,7 +713,7 @@
         <item name="android:typeface">monospace</item>
         <item name="android:gravity">center</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="NPWidget">
         <item name="android:textAppearance">?android:attr/textAppearance</item>
@@ -735,7 +735,7 @@
         <item name="android:fadingEdge">vertical</item>
         <item name="android:fadingEdgeLength">50dip</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
     <eat-comment/>
     <style name="PopupMenu.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_turiosthemeactionbarlight</item>	
@@ -743,7 +743,7 @@
     <style name="ProgressBar.Turiosthemeactionbarlight" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_turiosthemeactionbarlight</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
     <eat-comment/>
     <style name="ProgressBarTuriosThemeLight" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
       <item name="android:progressDrawable">@drawable/turiosthemelight_progress_horizontal_holo_light</item>
@@ -766,7 +766,7 @@
       <item name="android:indeterminateDrawable">@drawable/turiosthemelight_scrubber_progress_horizontal_holo_light</item>
       <item name="android:thumb">@drawable/turiosthemelight_scrubber_control_selector_holo_light</item>
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="SetupHeader">
         <item name="android:shadowColor">@color/Grey</item>
@@ -803,13 +803,13 @@
         <item name="android:padding">5dp</item>
         <item name="android:textIsSelectable">false</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
     <eat-comment/>
     <style name="SpinnerTuriosThemeLight" parent="android:Widget.Holo.Light.Spinner">
       <item name="android:background">@drawable/turiosthemelight_spinner_background_holo_light</item>
       <item name="android:dropDownSelector">@drawable/turiosthemelight_list_selector_holo_light</item>
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="SplashScreen" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:padding">0dp</item>
@@ -837,7 +837,7 @@
         <item name="android:textAppearance">@dimen/text_size_hidden</item>
         <item name="android:textColor">@color/White</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance">
         <item name="textColor">?android:attr/textColorPrimary</item>
@@ -846,7 +846,7 @@
         <item name="textColorLink">?android:attr/textColorLink</item>
         <item name="textSize">16sp</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemeactionbarlight.xml -->
     <eat-comment/>
     <style name="Theme.Turiosthemeactionbarlight" parent="@style/TuriosThemeLight">
         <item name="android:actionBarItemBackground">@drawable/selectable_background_turiosthemeactionbarlight</item>
@@ -865,15 +865,15 @@
         <item name="android:popupMenuStyle">@style/PopupMenu.Turiosthemeactionbarlight</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Turiosthemeactionbarlight</item>
     </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles_turiosthemelight.xml -->
     <eat-comment/>
     <style name="ToggleTuriosThemeLight" parent="android:Widget.Holo.Light.Button.Toggle">
       <item name="android:background">@drawable/turiosthemelight_btn_toggle_holo_light</item>
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="TuriosBaseTheme" parent="@style/Theme.Turiosthemeactionbarlight"/>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/values/themes_turiosthemelight.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values/themes_turiosthemelight.xml -->
     <eat-comment/>
     <style name="TuriosThemeLight" parent="@style/_TuriosThemeLight"/>
     <style name="_TuriosThemeLight" parent="android:Theme.Holo.Light">
@@ -916,7 +916,7 @@
     <item name="android:fastScrollThumbDrawable">@drawable/turiosthemelight_fastscroll_thumb_holo</item>
 
   </style>
-    <!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/home/cyrix/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="switch_dark">
         <item name="track">@drawable/switch_track_holo_dark</item>

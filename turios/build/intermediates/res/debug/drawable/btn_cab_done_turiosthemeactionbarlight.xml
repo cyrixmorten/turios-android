@@ -25,4 +25,4 @@
     <item android:state_enabled="true"
         android:drawable="@drawable/btn_cab_done_default_turiosthemeactionbarlight" />
 </selector>
-<!-- From: file:/home/cyrix/AndroidstudioProjects/Turios/turios/src/main/res/drawable/btn_cab_done_turiosthemeactionbarlight.xml -->
+<!-- From: file:/home/cyrix/turios/turios/src/main/res/drawable/btn_cab_done_turiosthemeactionbarlight.xml -->

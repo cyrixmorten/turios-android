@@ -154,6 +154,7 @@
     <string name="dropbox_not_ready_try_again_later">Dropbox ikke klar, prøv igen om et øjeblik</string>
     <string name="settings_changes_is_saving">Ændringer gemmes</string>
     <string name="settings_loaded">Indstillinger indlæst</string>
-    
+    <string name="title_activity_maps">Map</string>
+
 
 </resources>

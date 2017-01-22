@@ -86,7 +86,7 @@ public class SMSReceiver extends DaggerBroadcastReceiver {
 						}
 
 						@Override
-						public void failed(ParseException e) {
+						public void failed(Exception e) {
 							Log.d(TAG, "JSONException: " + e.getMessage());
 						}
 					});

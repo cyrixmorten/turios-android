@@ -5,6 +5,8 @@ import android.content.Intent;
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 import com.parse.Parse;
 import com.parse.ParseACL;
+import com.parse.ParseSession;
+import com.parse.ParseUser;
 import com.turios.dagger.DaggerApplication;
 import com.turios.services.Communicator;
 import com.turios.wakefulservices.UpdateStateListener;
@@ -40,6 +42,8 @@ public class TuriosApplication extends DaggerApplication {
 		defaultACL.setPublicWriteAccess(false);
 		defaultACL.setPublicReadAccess(false);
 		ParseACL.setDefaultACL(defaultACL, true);
+
+		ParseUser.enableRevocableSessionInBackground();
 
 		startService(new Intent(this, Communicator.class));
 

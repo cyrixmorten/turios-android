@@ -180,7 +180,7 @@ public class DisplayCoreModule {
 //		Log.d(TAG, "after deletePage: " + getPagesCount());
 	}
 
-	public void completePageDelete(int page) {
+	private void completePageDelete(int page) {
 		long id = getPageId(page);
 
 		mapPageId.remove(page);

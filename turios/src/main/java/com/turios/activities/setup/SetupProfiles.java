@@ -17,8 +17,9 @@ import android.widget.ProgressBar;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import butterknife.OnClick;
 
 import com.parse.FindCallback;
@@ -36,9 +37,9 @@ public class SetupProfiles extends DaggerActivity {
 	@Inject LayoutInflater inflater;
 	@Inject ActionBar actionbar;
 
-	@InjectView(R.id.setup_content) LinearLayout content;
-	@InjectView(R.id.progress_loading) ProgressBar loading;
-	@InjectView(R.id.setup_info_no_profile) TextView noProfileInfo;
+	@Bind(R.id.setup_content) LinearLayout content;
+	@Bind(R.id.progress_loading) ProgressBar loading;
+	@Bind(R.id.setup_info_no_profile) TextView noProfileInfo;
 
 	private List<Switch> switches;
 
@@ -62,7 +63,7 @@ public class SetupProfiles extends DaggerActivity {
 
 		switches = new ArrayList<Switch>();
 
-		ButterKnife.inject(SetupProfiles.this);
+		ButterKnife.bind(SetupProfiles.this);
 
 		final ParseObject currentProfile = parse.getParseProfile().getProfile();
 		parse.getParseProfile().getProfiles(new FindCallback<ParseObject>() {

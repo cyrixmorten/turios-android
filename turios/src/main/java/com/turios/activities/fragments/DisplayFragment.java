@@ -308,7 +308,7 @@ public class DisplayFragment extends DaggerFragment {
 		this.mRootView = inflater.inflate(R.layout.fragment_display, container,
 				false);
 
-		ButterKnife.inject(this, mRootView);
+		ButterKnife.bind(this, mRootView);
 
 		this.mContainerView = (ViewGroup) mRootView.findViewById(R.id.display);
 		this.mScrollView = (ScrollView) mRootView.findViewById(R.id.scrollview);
@@ -371,7 +371,7 @@ public class DisplayFragment extends DaggerFragment {
 	@Override
 	public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.reset(this);
+		ButterKnife.unbind(this);
 	}
 
 	private OnClickListener ExpandClickListener = new OnClickListener() {

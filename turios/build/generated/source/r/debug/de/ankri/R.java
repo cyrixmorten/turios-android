@@ -49,15 +49,15 @@ public final class R {
 		public static final int switch_track_holo_light = 0x7f020082;
 	}
 	public static final class string {
-		public static final int textOff = 0x7f0d0182;
-		public static final int textOn = 0x7f0d0183;
+		public static final int textOff = 0x7f080183;
+		public static final int textOn = 0x7f080184;
 	}
 	public static final class style {
-		public static final int AppThemeDark = 0x7f0e0004;
-		public static final int AppThemeLight = 0x7f0e0005;
-		public static final int TextAppearance = 0x7f0e0025;
-		public static final int switch_dark = 0x7f0e002c;
-		public static final int switch_light = 0x7f0e002d;
+		public static final int AppThemeDark = 0x7f090005;
+		public static final int AppThemeLight = 0x7f090006;
+		public static final int TextAppearance = 0x7f090025;
+		public static final int switch_dark = 0x7f09002c;
+		public static final int switch_light = 0x7f09002d;
 	}
 	public static final class styleable {
 		public static final int[] Switch = { 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a };

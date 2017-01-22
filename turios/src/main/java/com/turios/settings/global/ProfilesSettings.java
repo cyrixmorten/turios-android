@@ -80,6 +80,10 @@ public class ProfilesSettings extends DaggerPreferenceFragment {
 	}
 
 	private void addProfile(ParseObject profile) {
+		if (this.isDetached()) {
+			return;
+		}
+		
 		SwitchPreference switchPref = new SwitchPreference(getActivity());
 		switchPref.setTitle(profile.getString(ParseObjectHelper.Profile.name));
 		switchPref.setOrder(switchPrefs.size());

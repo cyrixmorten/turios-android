@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.turios"
-    android:versionCode="57"
-    android:versionName="1.5.4" >
+    android:versionCode="60"
+    android:versionName="1.6.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -18,20 +18,21 @@
     <!-- <uses-permission android:name="com.turios.permission.MAPS_RECEIVE" /> -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <!--<uses-permission android:name="android.permission.SEND_SMS" /> -->
-    <!--<uses-permission android:name="android.permission.WRITE_SMS" />-->
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
-    <!--<uses-permission android:name="android.permission.RESTART_PACKAGES" />-->
+    <!-- <uses-permission android:name="android.permission.RESTART_PACKAGES" /> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <supports-screens android:xlargeScreens="true" >
-    </supports-screens>
+    <supports-screens android:xlargeScreens="true"></supports-screens>
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".activities.TuriosApplication"
@@ -39,16 +40,16 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher_fireicon"
         android:label="@string/app_name"
-        android:theme="@style/TuriosBaseTheme"
         android:largeHeap="true"
-        android:uiOptions="none" >
+        android:theme="@style/TuriosBaseTheme"
+        android:uiOptions="none">
 
         <!-- Splash screen -->
         <activity
             android:name=".activities.SplashScreen"
             android:label="@string/app_name"
             android:noHistory="true"
-            android:theme="@style/SplashScreen" >
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -59,11 +60,10 @@
             android:name=".activities.Turios"
             android:alwaysRetainTaskState="true"
             android:clearTaskOnLaunch="true"
-            android:launchMode="singleTask"
-             >
-            
+            android:launchMode="singleTask">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
 
@@ -72,7 +72,7 @@
                 android:resource="@xml/searchable_address" />
         </activity>
 
-        <receiver android:name=".sms.OnBootCommunicatorReceiver" >
+        <receiver android:name=".sms.OnBootCommunicatorReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -82,7 +82,7 @@
         <activity android:name="com.dropbox.sync.android.DbxAuthActivity" />
         <activity
             android:name="com.dropbox.client2.android.AuthActivity"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop">
             <intent-filter>
                 <data android:scheme="db-btn5vewgedxxmed" />
 
@@ -102,7 +102,7 @@
         <!-- Parse -->
         <service android:name="com.parse.PushService" />
 
-        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.USER_PRESENT" />
@@ -117,10 +117,11 @@
         </receiver> 
         -->
 
+
         <!-- Wakeful -->
         <receiver
             android:name="com.commonsware.cwac.wakeful.AlarmReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -136,15 +137,17 @@
             android:enabled="true" />
         <service android:name=".services.Communicator" />
 
-        <!-- 
+        <!--
         <receiver android:name=".sms.SMSReceiver" >
             <intent-filter>
                 <action android:name="cyrix.turios.INCOMMING_SMS" />
             </intent-filter>
-        </receiver> -->
+        </receiver>
+        -->
 
-        <activity android:name=".activities.SettingsActivity" 
-             android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:theme="@android:style/Theme.Holo.Light" />
 
         <service android:name=".wakefulservices.UpdateStateService" />
 
@@ -164,24 +167,38 @@
         <activity
             android:name=".activities.setup.SetupDropbox"
             android:theme="@android:style/Theme.Holo.Light" />
-        <!--<activity
+        <!--
+            <activity
             android:name=".activities.setup.SetupSMS"
-            android:theme="@android:style/Theme.Holo.Light" />-->
+            android:theme="@android:style/Theme.Holo.Light" />
+        -->
         <activity
             android:name=".activities.setup.SetupDone"
             android:theme="@android:style/Theme.Holo.Light" />
 
-        <service android:name="com.turios.modules.extend.DropboxModule$DropboxFileDownloader" />
+        <service android:name=".modules.extend.DropboxModule$DropboxFileDownloader" />
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyA0UyCG5ShXiG1k3wBHl7gPUrmn4ss5Ca0" />
+        <!--<meta-data-->
+            <!--android:name="com.google.android.maps.v2.API_KEY"-->
+            <!--android:value="AIzaSyBuSqlNo5WZ6IHDlY7O8E9KjguAG9eMtck" />-->
         <meta-data
             android:name="com.crashlytics.ApiKey"
             android:value="1d3137a16e5b81623a1376cbae7962314b9c8d6a" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
     </application>
 
 </manifest>

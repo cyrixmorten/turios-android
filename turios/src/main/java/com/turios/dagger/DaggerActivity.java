@@ -23,8 +23,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.ViewConfiguration;
 
-import com.parse.BuildConfig;
-import com.parse.ParseAnalytics;
 import com.turios.dagger.modules.ActivityModule;
 
 import dagger.ObjectGraph;
@@ -62,8 +60,6 @@ public abstract class DaggerActivity extends FragmentActivity {
 		// this method returns.
 		activityGraph.inject(this);
 
-		if (!BuildConfig.DEBUG)
-			ParseAnalytics.trackAppOpened(getIntent());
 
 	}
 

@@ -63,7 +63,7 @@ public class GoogleMapOptionsFragment extends DaggerFragment implements
 		View root = inflater.inflate(R.layout.fragment_mapsoptions, container,
 				false);
 
-		ButterKnife.inject(this, root);
+		ButterKnife.bind(this, root);
 
 		return root;
 	}
@@ -110,7 +110,7 @@ public class GoogleMapOptionsFragment extends DaggerFragment implements
 
 	@Override public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.reset(this);
+		ButterKnife.unbind(this);
 		hydrants.setHydrantsOptionsChangedListener(null);
 	}
 

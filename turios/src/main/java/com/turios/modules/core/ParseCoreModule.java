@@ -51,7 +51,7 @@ public class ParseCoreModule {
 	public interface ParseLoginCallback {
 		public void success();
 
-		public void failed(ParseException e);
+		public void failed(Exception e);
 	}
 
 	private ParseUser parseUser;
@@ -440,8 +440,7 @@ public class ParseCoreModule {
 			}
 
 		} else {
-			loginCallback.failed(new ParseException(
-					"parseInstallation was null", null));
+			loginCallback.failed(new Exception("parseInstallation was null"));
 		}
 
 	}

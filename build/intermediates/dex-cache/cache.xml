@@ -2,144 +2,337 @@
 <items version="2" >
 
     <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/turios/switchCompatLibrary/unspecified/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-334159f905fedc17c0e0ae8b8bd85d9761576278.jar" />
+        sha1="f873792cccfc7254bd12c2fddc4475e06fe12689">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/turios-switchCompatLibrary-unspecified_e2984762f98c78b37e7dbc691070c1a5dc129b6d.jar" />
     </item>
     <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/javax.inject-1.jar"
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/crashlytics.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/javax.inject-1-7833c088344eeaaaf08d8c5c9b9d7cbedf71229e.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/switchCompatLibrary/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6aa4e353373cad80af80fc7fe24dbc3d9adbf447">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-396b597d66948b984c34eb6e19b22b68a47bbed6.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/javawriter-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="08c906ceb13855dbc1398a0953ab998189c16870">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/javawriter-2.4.0-8e0d292de3550a7c56275a792238a5297280a7ae.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-7d62b0828376c50866eac6aed4849545b2146588.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-db9a7283b1789357159def675b54b917d6111053.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/butterknife-4.0.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f43b36925363701633d01adb8e54df7150397a78">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/butterknife-4.0.1-c76b4ceb0d1e24c704bd0873508312ee2b4d067d.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/Parse-1.3.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="252966134eb47bcd33407adc5c3d0b20a21128a9">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/Parse-1.3.8-91d3599814becf15d70305cf4d9d3adb27192780.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dagger-1.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="adec009bc3b39d0cbd7ec96ef6014667a3a8f147">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dagger-1.2.0-22cee1a84b8b2bb3ba1f8f8d36aa065481b8a1a9.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/androidmapsextensions/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a40ecbe8fdcd04a97047b60832204366a42dcf37">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-d2d6cbdd92784ca29c86003031e153d34b3b172f.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/Turios/numberPickerCompatLibrary/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c782ffcf51e39c94bf918c1e61e8d8aff7109985">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-0843c853ee501c1803dd5eb68ae4b65a29cf5c49.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-4b16f5bd1dfc5d9d552ee9cff5a25cef3050d2b2.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/classes-fbf6db1238697b9973f17ce5a8ec3e9e2ab433c0.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dropbox-sync-sdk-android.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dropbox-sync-sdk-android-c179d0b75617bbb96c258eeef49bccc6d9cfa952.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/android-maps-extensions-2.1.0-sources.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e56b9cbd1c4cc9b6c489cf207a862c250b2cc38f">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/android-maps-extensions-2.1.0-sources-c68ac5719b17e5bf65a522f674508d6fb8e4a4a3.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/libGoogleAnalyticsServices.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-d4ef1ad849145f0d60be9ec50f39409f4402ebde.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/CWAC-WakefulIntentService.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9b919be8e51da4425e3562f93e0f5aa26b47fce5">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/CWAC-WakefulIntentService-9ea8dd58d5f4b8e1d14126c70424c4f6da51cbeb.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/dagger-compiler-1.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="022633bb84433e03d345a83e7b0c08c66768be30">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.0-019577482a072b70194f0586e2dadd755d799e81.jar" />
-    </item>
-    <item
-        jar="/home/cyrix/AndroidstudioProjects/Turios/turios/libs/crashlytics.jar"
-        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/crashlytics-b8a13e27612da39bcd2910a72b2c76a0bc8c2301.jar" />
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/crashlytics_ec2d44b27ccc187ac3991666b9f08f6cdd8aa5d6.jar" />
     </item>
     <item
-        jar="/home/cyrix/Development/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/internal_impl-21.0.0_8e41917420e9ed2702e27a800df438e65557731e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ecd00d9980f2fc84cde769c57a9b5d6ebb770b21">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_44df0b3d328df487bcc5b30e07c0cf78264859d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/dropbox-sync-sdk-android_1b83bffd07393197ae938dc3943b03656d090ca9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/crashlytics.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/2/crashlytics_ec2d44b27ccc187ac3991666b9f08f6cdd8aa5d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/butterknife-7.0.1_b9647163628cb444aae119004a41ad9c40d50d02.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_b9647163628cb444aae119004a41ad9c40d50d02/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/com.android.support-support-v4-21.0.0_2a43197425e55c8037d8eb58b24e84aa9e312d4b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.1/54c87b3d91238e5b58e1a436d4916eee680ec959/javawriter-2.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="54c87b3d91238e5b58e1a436d4916eee680ec959">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/javawriter-2.5.1_240e6335a74fad0d6e6129438d78f95bbbb7fdd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/libGoogleAnalyticsServices_061d131d616fd589fcccf273253f7c54720649f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.1/54c87b3d91238e5b58e1a436d4916eee680ec959/javawriter-2.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="54c87b3d91238e5b58e1a436d4916eee680ec959">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/javawriter-2.5.1_240e6335a74fad0d6e6129438d78f95bbbb7fdd2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_77504c5d2e29028a10327176c181a060ee98a9a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0_77504c5d2e29028a10327176c181a060ee98a9a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.0_2a43197425e55c8037d8eb58b24e84aa9e312d4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.0_8e41917420e9ed2702e27a800df438e65557731e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-1.2.2_b151c697693fb71a30f4303567c7b13bc7c98a49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/2/libGoogleAnalyticsServices_061d131d616fd589fcccf273253f7c54720649f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="/home/cyrix/AndroidstudioProjects/Turios/turios/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-58597b7310e2732a421f6f56bbad39b3db8073de.jar" />
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/support-annotations-21.0.0_621ead87825086b2cf4d3bb3b94066a48c2df794.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/dagger-1.2.2_b151c697693fb71a30f4303567c7b13bc7c98a49.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-6.5.87_8c03f3aa97ccd76ffdae7ee2faeee8879b37f33b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/parse-android-1.13.0_a4052aa20898d2f2d06ccc2ab09777d50f19b427.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.0_621ead87825086b2cf4d3bb3b94066a48c2df794/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-6.5.87_8c03f3aa97ccd76ffdae7ee2faeee8879b37f33b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-maps-6.5.87_24e05af1ea847a26e8e37df154c2356c4926e3af.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_a4052aa20898d2f2d06ccc2ab09777d50f19b427/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-6.5.87_24e05af1ea847a26e8e37df154c2356c4926e3af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5f57db4eac47abe882954c62066f09521afc9da5">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e230cfd9146fba446a0caf4edbc8b3b36f2933fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-6.5.87_6d7fc54860cc56fcf941af0e81619e350317941e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-location-6.5.87_6d7fc54860cc56fcf941af0e81619e350317941e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/CWAC-WakefulIntentService.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9b919be8e51da4425e3562f93e0f5aa26b47fce5">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/2/CWAC-WakefulIntentService_58c6141d9b8cd8555c1e313a33bfcc82db7ca912/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/CWAC-WakefulIntentService.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9b919be8e51da4425e3562f93e0f5aa26b47fce5">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/CWAC-WakefulIntentService_58c6141d9b8cd8555c1e313a33bfcc82db7ca912.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/Development/turios/turios/libs/dropbox-sync-sdk-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/2/dropbox-sync-sdk-android_1b83bffd07393197ae938dc3943b03656d090ca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/turios/numberPickerCompatLibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="aec940856f4210ffd07f69bad0ff3dd59504154b">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/turios-numberPickerCompatLibrary-unspecified_2d26255ff90bf1ca0a27b53082d8a6bbf2bed099.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_5907e2e60e7df04458f7a7056ac912b7f445b3e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/Development/turios/turios/build/intermediates/exploded-aar/turios/androidmapsextensions/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b409556ba7103517cc91a0148e9d845fdbef86a6">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/turios-androidmapsextensions-unspecified_350457333ba2253d6bcf23646b88a3e2e4fc6cea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cyrixmorten/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/cyrixmorten/Development/turios/turios/build/intermediates/pre-dexed/release/javax.inject-1_5907e2e60e7df04458f7a7056ac912b7f445b3e9.jar" />
     </item>
 
 </items>

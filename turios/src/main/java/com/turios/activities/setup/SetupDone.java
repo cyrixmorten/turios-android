@@ -40,7 +40,7 @@ public class SetupDone extends DaggerActivity {
 
 		actionbar.setTitle(getString(R.string.app_name));
 
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 
 		this.setFinishOnTouchOutside(false);
 

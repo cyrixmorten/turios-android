@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.turios"
-    android:versionCode="57"
-    android:versionName="1.5.4" >
+    android:versionCode="60"
+    android:versionName="1.6.0" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -30,8 +30,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <supports-screens android:xlargeScreens="true" >
-    </supports-screens>
+    <supports-screens android:xlargeScreens="true" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.turios.activities.TuriosApplication"
@@ -180,12 +181,23 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyA0UyCG5ShXiG1k3wBHl7gPUrmn4ss5Ca0" />
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.maps.v2.API_KEY" -->
+        <!-- android:value="AIzaSyBuSqlNo5WZ6IHDlY7O8E9KjguAG9eMtck" /> -->
         <meta-data
             android:name="com.crashlytics.ApiKey"
             android:value="1d3137a16e5b81623a1376cbae7962314b9c8d6a" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
     </application>
 
 </manifest>

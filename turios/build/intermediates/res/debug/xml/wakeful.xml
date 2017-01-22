@@ -1,3 +1,0 @@
-<WakefulIntentService
-  listener="com.turios.wakefulservices.UpdateStateListener"
-/><!-- From: file:/home/cyrix/turios/turios/src/main/res/xml/wakeful.xml -->

@@ -9,8 +9,9 @@ import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
+
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import butterknife.OnClick;
 
 import com.parse.ParseException;
@@ -30,7 +31,7 @@ public class SetupWelcome extends DaggerActivity {
 	@Inject ParseCoreModule parse;
 	@Inject ActionBar actionbar;
 
-	@InjectView(R.id.input_unit_name) EditText unitname;
+	@Bind(R.id.input_unit_name) EditText unitname;
 
 	@OnClick(R.id.button_continue) public void onContinue(Button button) {
 		String name = unitname.getText().toString();
@@ -68,7 +69,7 @@ public class SetupWelcome extends DaggerActivity {
 
 				actionbar.setTitle("Velkommen");
 
-				ButterKnife.inject(SetupWelcome.this);
+				ButterKnife.bind(SetupWelcome.this);
 
 				unitname.setText(parse.getPreferences().getDevicename());
 
@@ -76,7 +77,7 @@ public class SetupWelcome extends DaggerActivity {
 						R.anim.slide_out_left);
 			}
 
-			@Override public void failed(ParseException e) {
+			@Override public void failed(Exception e) {
 				Intent i = new Intent(SetupWelcome.this, SplashScreen.class)
 						.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 				startActivity(i);

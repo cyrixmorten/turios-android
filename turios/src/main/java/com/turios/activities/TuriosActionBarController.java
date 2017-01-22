@@ -219,14 +219,14 @@ public class TuriosActionBarController {
 	}
 
 	public boolean onPrepareOptionsMenu(Menu menu) {
-		MenuItem refresh = (MenuItem) menu.findItem(R.id.button_sync);
-		if (refresh != null) {
-			if (dropboxModule.isSynchronizing()) {
-				refresh.setActionView(R.layout.actionbar_indeterminate_progress);
-			} else {
-				refresh.setActionView(null);
-			}
-		}
+//		MenuItem refresh = (MenuItem) menu.findItem(R.id.button_sync);
+//		if (refresh != null) {
+//			if (dropboxModule.isSynchronizing()) {
+//				refresh.setActionView(R.layout.actionbar_indeterminate_progress);
+//			} else {
+//				refresh.setActionView(null);
+//			}
+//		}
 		return true;
 	}
 
@@ -346,20 +346,20 @@ public class TuriosActionBarController {
 //			mTuriosUICallback.invalidateOptionsMenu();
 //			return true;
 
-		case R.id.button_sync:
-
-			if (dropboxModule.isEnabled()) {
-
-				DropboxFileDownloaderResultReceiver dropboxFileDownloaderResultReceiver = dropboxModule.new DropboxFileDownloaderResultReceiver(
-						new Handler());
-				dropboxFileDownloaderResultReceiver
-						.setReceiver(dropboxFileDownloaderReceiver);
-				dropboxModule.synchronize(DbxPath.ROOT,
-						dropboxFileDownloaderResultReceiver);
-
-			}
-
-			return true;
+//		case R.id.button_sync:
+//
+//			if (dropboxModule.isEnabled()) {
+//
+//				DropboxFileDownloaderResultReceiver dropboxFileDownloaderResultReceiver = dropboxModule.new DropboxFileDownloaderResultReceiver(
+//						new Handler());
+//				dropboxFileDownloaderResultReceiver
+//						.setReceiver(dropboxFileDownloaderReceiver);
+//				dropboxModule.synchronize(DbxPath.ROOT,
+//						dropboxFileDownloaderResultReceiver);
+//
+//			}
+//
+//			return true;
 		}
 
 		return false;

@@ -8,20 +8,19 @@ import javax.inject.Inject;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.DialogFragment;
+import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
-import butterknife.Optional;
 
 import com.crashlytics.android.Crashlytics;
 import com.parse.ParseException;
-import com.parse.PushService;
 import com.turios.R;
 import com.turios.activities.fragments.dialog.DialogFragments;
 import com.turios.activities.fragments.dialog.GenericOkDialogFragment;
@@ -60,11 +59,9 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 
 //	private DialogFragment loginDialog;
 
-	@Optional
-	@InjectView(R.id.progressBar1)
+	@Nullable @Bind(R.id.progressBar1)
 	ProgressBar progressBar;
-	@Optional
-	@InjectView(R.id.imgLogo)
+	@Nullable @Bind(R.id.imgLogo)
 	ImageView logo;
 
 	@Inject
@@ -110,8 +107,6 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 
 		orientation.lockOrientation();
 
-		PushService.setDefaultPushCallback(this, SplashScreen.class);
-		PushService.startServiceIfRequired(this);
 
 		modules = new ArrayList<Module>();
 		modules.add(basisModule);
@@ -127,7 +122,7 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 
 		if (TuriosApplication.getInstance().shouldShowSplashScreen()) {
 			setContentView(R.layout.activity_splash);
-			ButterKnife.inject(this);
+			ButterKnife.bind(this);
 
 			/** backwards compatibility changes */
 			// EditText converted to SeekBarDialog
@@ -217,7 +212,7 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 		}
 
 		@Override
-		public void failed(ParseException e) {
+		public void failed(Exception e) {
 			Log.d(TAG, "LOGIN failed " + e.getMessage());
 			if (device.isOnline()) {
 				// assume wrong login credentials

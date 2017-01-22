@@ -15,7 +15,7 @@ public class ExpirationCoreModule {
 	private static final String TAG = "ExpirationCoreModule";
 
 	public interface ExpirationCoreModuleCallback {
-		public void expiresIn(int days);
+		void expiresIn(int days);
 	}
 
 	private ExpirationCoreModuleCallback expirationCoreModuleCallback;
@@ -51,7 +51,7 @@ public class ExpirationCoreModule {
 		return getDaysUntilExpiration() == 0;
 	}
 
-	public int getDaysUntilExpiration() {
+	private int getDaysUntilExpiration() {
 		if (parse.isLoggedIn()) {
 			Date installDate = parse.getParseInstallation().getCreatedAt();
 			int days = (int) TimeUnit.DAYS.convert(

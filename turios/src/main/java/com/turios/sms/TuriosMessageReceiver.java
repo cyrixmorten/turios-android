@@ -52,8 +52,8 @@ public class TuriosMessageReceiver extends DaggerBroadcastReceiver {
 				}
 			}
 
-			@Override public void failed(ParseException e) {
-				Log.d(TAG, "JSONException: " + e.getMessage());
+			@Override public void failed(Exception e) {
+				Log.e(TAG, "JSONException: " + e.getMessage(), e);
 			}
 		});
 

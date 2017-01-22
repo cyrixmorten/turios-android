@@ -48,7 +48,7 @@ public class UpdateStateService extends DaggerWakefulIntentService {
 				getApplicationContext().sendBroadcast(i);
 			}
 
-			@Override public void failed(ParseException e) {
+			@Override public void failed(Exception e) {
 				Log.i(TAG, "Parse loggin failed " + e.getMessage());
 				Log.e(TAG, e.getMessage(), e);
 			}

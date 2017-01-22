@@ -103,11 +103,11 @@ public abstract class StandardModule implements Module {
 	}
 
 	public boolean isPaid() {
-		return parseCoreModule.isModulePaid(module);
+		return true;
 	}
 
 	public boolean isEnabled() {
-		return (isPaid() || !expirationCoreModule.isExpired());
+		return true;
 	}
 
 	public void setActivated(boolean activated) {

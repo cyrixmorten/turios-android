@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/home/cyrix/turios/turios/src/main/res/values-w1280dp/layouts.xml -->
-    <eat-comment/>
-    <bool name="has_two_panes">true</bool>
-    <item name="main_layout" type="layout">@layout/activity_turios</item>
-</resources>

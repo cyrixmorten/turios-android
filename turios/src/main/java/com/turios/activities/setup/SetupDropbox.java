@@ -13,8 +13,9 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import butterknife.OnClick;
 
 import com.dropbox.sync.android.DbxAccountManager;
@@ -34,14 +35,14 @@ public class SetupDropbox extends DaggerActivity implements DropboxCallback {
 
 
 
-	@InjectView(R.id.setup_progress) ProgressBar progress;
-	@InjectView(R.id.setup_info) TextView info;
-	@InjectView(R.id.setup_dropbox_connect) Button connect_button;
-	@InjectView(R.id.button_continue) Button continue_button;
-	@InjectView(R.id.button_back) Button back_button;
+	@Bind(R.id.setup_progress) ProgressBar progress;
+	@Bind(R.id.setup_info) TextView info;
+	@Bind(R.id.setup_dropbox_connect) Button connect_button;
+	@Bind(R.id.button_continue) Button continue_button;
+	@Bind(R.id.button_back) Button back_button;
 
 
-	@InjectView(R.id.progress_loading) ProgressBar loading;
+	@Bind(R.id.progress_loading) ProgressBar loading;
 	@Inject ActionBar actionbar;
 	
 	@Inject PathsCoreModule paths;
@@ -93,7 +94,7 @@ public class SetupDropbox extends DaggerActivity implements DropboxCallback {
 
 		actionbar.setTitle(R.string.module_dropbox);
 
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 
 		handleIntent(getIntent());
 

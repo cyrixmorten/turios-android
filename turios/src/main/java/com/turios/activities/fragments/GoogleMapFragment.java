@@ -216,7 +216,7 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 		@Override public View onCreateView(LayoutInflater inflater,
 				ViewGroup container, Bundle savedInstanceState) {
 			View view = super.onCreateView(inflater, container, savedInstanceState);
-			ButterKnife.inject(this, view);
+			ButterKnife.bind(this, view);
 			if (mCallback != null) {
 				mCallback.onMapReady(getExtendedMap());
 			}
@@ -236,7 +236,7 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 
 	@Override public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.reset(this);
+		ButterKnife.unbind(this);
 	}
 
 	

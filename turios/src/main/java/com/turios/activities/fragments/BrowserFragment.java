@@ -72,7 +72,7 @@ public class BrowserFragment extends DaggerFragment {
         webview = (WebView) inflater.inflate(R.layout.fragment_browser,
                 container, false);
 
-        ButterKnife.inject(this, webview);
+        ButterKnife.bind(this, webview);
 
         return webview;
     }
@@ -153,7 +153,7 @@ public class BrowserFragment extends DaggerFragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ButterKnife.reset(this);
+        ButterKnife.unbind(this);
     }
 
     public class MyWebViewClient extends WebViewClient {

@@ -6,18 +6,18 @@
         android:fragment="com.turios.settings.global.GeneralSettings"
         android:icon="@drawable/ic_action_settings"
         android:title="@string/prefs_header_title_general" />
-    <header
-        android:fragment="com.turios.settings.global.ConnectUnitsSettings"
-        android:icon="@android:drawable/ic_menu_share"
-        android:title="@string/prefs_header_title_connect_units" />
+    <!--<header-->
+        <!--android:fragment="com.turios.settings.global.ConnectUnitsSettings"-->
+        <!--android:icon="@android:drawable/ic_menu_share"-->
+        <!--android:title="@string/prefs_header_title_connect_units" />-->
     <header
         android:fragment="com.turios.settings.global.ProfilesSettings"
         android:icon="@drawable/ic_action_group"
         android:title="@string/prefs_header_title_profiles" />
-    <header
-        android:fragment="com.turios.settings.global.UpdateSettings"
-        android:icon="@drawable/ic_action_save"
-        android:title="@string/prefs_header_title_update" />
+    <!--<header-->
+        <!--android:fragment="com.turios.settings.global.UpdateSettings"-->
+        <!--android:icon="@drawable/ic_action_save"-->
+        <!--android:title="@string/prefs_header_title_update" />-->
     <header android:title="@string/modules" />
     <header
         android:fragment="com.turios.settings.modules.BasisSettings"

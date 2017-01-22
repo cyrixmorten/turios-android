@@ -1,22 +1,47 @@
 apply plugin: 'com.android.application'
 
-android {
-    compileSdkVersion 19
-    buildToolsVersion "21.1.2"
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://maven.parse.com/repo'
+        }
+        flatDir {
+            dirs 'aars' //this way we can findFrom the .aar file in libs folder
+        }
+    }
+    dependencies {
+        classpath 'com.parse.tools:gradle:1.1'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
 
+apply plugin: 'com.parse'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'turios'
+            keyPassword 'cH99fvFx'
+            storeFile file('/Users/cyrixmorten/Dropbox/Arbejde/Turios/keystore/cyrix.keystore')
+            storePassword 'cH99fvFx'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
     defaultConfig {
         applicationId "com.turios"
         minSdkVersion 15
         targetSdkVersion 21
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
         }
     }
-
     packagingOptions {
         exclude 'META-INF/services/javax.annotation.processing.Processor'
     }
@@ -28,4 +53,10 @@ dependencies {
     compile project(':numberPickerCompatLibrary')
     compile project(':switchCompatLibrary')
     compile 'com.google.android.gms:play-services-location:6.5.87'
+    compile 'com.parse:parse-android:1.13.0'
+    compile 'com.squareup:javawriter:2.5.1'
+    compile 'javax.inject:javax.inject:1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.squareup.dagger:dagger:1.2.2'
+    apt 'com.squareup.dagger:dagger-compiler:1.2.2'
 }

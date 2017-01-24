@@ -1,12 +1,14 @@
 package com.turios.activities;
 
 import android.content.Intent;
+import android.util.Log;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseSession;
 import com.parse.ParseUser;
+import com.turios.BuildConfig;
 import com.turios.dagger.DaggerApplication;
 import com.turios.services.Communicator;
 import com.turios.wakefulservices.UpdateStateListener;
@@ -35,8 +37,14 @@ public class TuriosApplication extends DaggerApplication {
 			e.printStackTrace();
 		}
 
-		Parse.initialize(this, "VTvX9hidEEqijrvgihh4QK12Rqr1mlrzaq2OqcCT",
-				"g8nSP32z5ij4lY7yRx62RiWjDAzyTeCsOKQSCzBr");
+		Parse.setLogLevel(Parse.LOG_LEVEL_VERBOSE);
+
+		Parse.initialize(new Parse.Configuration.Builder(this)
+				.applicationId("turios")
+				.clientKey(null)
+				.server(BuildConfig.PARSE_SERVER_URL)
+				.build()
+		);
 
 		ParseACL defaultACL = new ParseACL();
 		defaultACL.setPublicWriteAccess(false);

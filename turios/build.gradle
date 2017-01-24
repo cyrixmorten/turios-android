@@ -40,6 +40,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
             signingConfig signingConfigs.release
+            buildConfigField "String", "PARSE_SERVER_URL", '"https://turios.herokuapp.com/parse/"'
+        }
+        debug {
+            buildConfigField "String", "PARSE_SERVER_URL", '"https://turios.herokuapp.com/parse/"'
         }
     }
     packagingOptions {

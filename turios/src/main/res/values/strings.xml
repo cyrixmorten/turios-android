@@ -157,6 +157,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="new_update">Ny opdatering</string>
     <string name="download_now">Hent nu</string>
+    <string name="downloading_update">Henter opdatering</string>
 
 
 </resources>

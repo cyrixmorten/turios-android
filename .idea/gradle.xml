@@ -10,8 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/androidmapsextensions" />
-            <option value="$PROJECT_DIR$/numberPickerCompatLibrary" />
-            <option value="$PROJECT_DIR$/switchCompatLibrary" />
             <option value="$PROJECT_DIR$/turios" />
           </set>
         </option>

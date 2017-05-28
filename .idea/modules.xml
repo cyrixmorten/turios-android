@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidmapsextensions/androidmapsextensions.iml" filepath="$PROJECT_DIR$/androidmapsextensions/androidmapsextensions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/numberPickerCompatLibrary/numberPickerCompatLibrary.iml" filepath="$PROJECT_DIR$/numberPickerCompatLibrary/numberPickerCompatLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/switchCompatLibrary/switchCompatLibrary.iml" filepath="$PROJECT_DIR$/switchCompatLibrary/switchCompatLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/turios.iml" filepath="$PROJECT_DIR$/turios.iml" />
       <module fileurl="file://$PROJECT_DIR$/turios/turios-turios.iml" filepath="$PROJECT_DIR$/turios/turios-turios.iml" />
     </modules>

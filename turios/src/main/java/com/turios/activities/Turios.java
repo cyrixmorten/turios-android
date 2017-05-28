@@ -24,7 +24,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -88,8 +87,7 @@ import bolts.Continuation;
 import bolts.Task;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-
-import static com.google.android.gms.internal.a.R;
+import butterknife.OnClick;
 
 public class Turios extends DaggerActivity implements TabListener,
 		GoogleMapFragment.OnGoogleMapFragmentListener,
@@ -203,9 +201,6 @@ public class Turios extends DaggerActivity implements TabListener,
 
 	@BindView(R.id.layout_new_update)
 	LinearLayout layoutNewUpdate;
-
-	@BindView(R.id.btn_download)
-	Button downloadButton;
 
 	// @Inject TuriosHydrantsListener hydrantsListener;
 
@@ -378,6 +373,7 @@ public class Turios extends DaggerActivity implements TabListener,
 		super.onPostResume();
 	}
 
+	private ParseObject update;
 	private void checkNewUpdate() {
 
 		new ParseQuery<>("Update").addDescendingOrder("versionNumber").getFirstInBackground()
@@ -385,7 +381,7 @@ public class Turios extends DaggerActivity implements TabListener,
 					@Override
 					public Object then(Task<ParseObject> task) throws Exception {
 						if (task.getResult() != null) {
-							ParseObject update = task.getResult();
+							update = task.getResult();
 
 							int currentVersion = device.getVersionCode();
 							int nextVersion = update.getInt("versionNumber");
@@ -393,6 +389,7 @@ public class Turios extends DaggerActivity implements TabListener,
 							if (currentVersion < nextVersion) {
 								layoutNewUpdate.setVisibility(View.VISIBLE);
 							}
+
 						}
 
 						return null;
@@ -400,40 +397,52 @@ public class Turios extends DaggerActivity implements TabListener,
 				});
 	}
 
-//	private void downloadAndInstall(Update update) {
-//		ParseFile apkFile = update.getUpdateFile();
-//		if (apkFile == null) {
-//			ToastHelper.toast(this, getString(R.string.file_not_found));
-//			return;
-//		}
-//
-//		final MaterialDialog downloadDialog = new MaterialDialog.Builder(this)
-//				.title(R.string.downloading_update)
-//				.content(R.string.please_wait)
-//				.progress(false, 100, false)
-//				.show();
-//
-//		ProgressCallback progressCallback = new ProgressCallback() {
-//			@Override
-//			public void done(Integer percentDone) {
-//				downloadDialog.setProgress(percentDone);
-//			}
-//		};
-//
-//		apkFile.getFileInBackground(new GetFileCallback() {
-//			@Override
-//			public void done(File file, ParseException e) {
-//				if (e != null) {
-//					return;
-//				}
-//
-//				UpdateApp.fromFile(file);
-//
-//				downloadDialog.dismiss();
-//
-//			}
-//		}, progressCallback);
-//	}
+
+	@OnClick(R.id.btn_download)
+	public void downloadAndInstall() {
+		Log.d(TAG, "downloadAndInstall");
+
+		if (update == null) {
+			Log.d(TAG, "update is null");
+			return;
+		}
+
+		ParseFile apkFile = update.getParseFile("androidApk");
+
+		if (apkFile == null) {
+			Log.d(TAG, "apkFile is null");
+			return;
+		}
+
+		Log.d(TAG, "downloading");
+
+		final MaterialDialog downloadDialog = new MaterialDialog.Builder(this)
+				.title(R.string.downloading_update)
+				.content(R.string.please_wait)
+				.progress(false, 100, false)
+				.show();
+
+		ProgressCallback progressCallback = new ProgressCallback() {
+			@Override
+			public void done(Integer percentDone) {
+				downloadDialog.setProgress(percentDone);
+			}
+		};
+
+		apkFile.getFileInBackground(new GetFileCallback() {
+			@Override
+			public void done(File file, ParseException e) {
+				if (e != null) {
+					return;
+				}
+
+				UpdateApp.fromFile(Turios.this, file);
+
+				downloadDialog.dismiss();
+
+			}
+		}, progressCallback);
+	}
 
 	public void registerListeners() {
 

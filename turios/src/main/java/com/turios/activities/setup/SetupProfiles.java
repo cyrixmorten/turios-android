@@ -1,10 +1,5 @@
 package com.turios.activities.setup;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.inject.Inject;
-
 import android.app.ActionBar;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,10 +13,6 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
@@ -31,15 +22,24 @@ import com.turios.dagger.DaggerActivity;
 import com.turios.modules.core.ParseCoreModule;
 import com.turios.modules.core.parse.ParseObjectHelper;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class SetupProfiles extends DaggerActivity {
 
 	@Inject ParseCoreModule parse;
 	@Inject LayoutInflater inflater;
 	@Inject ActionBar actionbar;
 
-	@Bind(R.id.setup_content) LinearLayout content;
-	@Bind(R.id.progress_loading) ProgressBar loading;
-	@Bind(R.id.setup_info_no_profile) TextView noProfileInfo;
+	@BindView(R.id.setup_content) LinearLayout content;
+	@BindView(R.id.progress_loading) ProgressBar loading;
+	@BindView(R.id.setup_info_no_profile) TextView noProfileInfo;
 
 	private List<Switch> switches;
 

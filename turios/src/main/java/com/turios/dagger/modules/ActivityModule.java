@@ -15,8 +15,6 @@
  */
 package com.turios.dagger.modules;
 
-import javax.inject.Singleton;
-
 import android.app.ActionBar;
 import android.app.ActionBar.TabListener;
 import android.content.Context;
@@ -37,7 +35,6 @@ import com.turios.activities.setup.SetupDone;
 import com.turios.activities.setup.SetupDropbox;
 import com.turios.activities.setup.SetupPDFViewer;
 import com.turios.activities.setup.SetupProfiles;
-import com.turios.activities.setup.SetupWelcome;
 import com.turios.activities.util.Orientation;
 import com.turios.activities.util.WakeScreen;
 import com.turios.dagger.DaggerActivity;
@@ -47,6 +44,8 @@ import com.turios.modules.extend.BasisModule;
 import com.turios.modules.extend.DropboxModule;
 import com.turios.modules.extend.DropboxModule.DropboxFileDownloaderResultReceiver;
 import com.turios.util.Notifications;
+
+import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
@@ -59,7 +58,7 @@ import dagger.Provides;
 @Module(addsTo = ApplicationModule.class, injects = { SplashScreen.class,
 		Turios.class, DisplayFragment.class, GoogleMapFragment.class,
 		GoogleMapOptionsFragment.class, BrowserFragment.class,
-		SettingsActivity.class, SetupWelcome.class, SetupProfiles.class,
+		SettingsActivity.class, SetupProfiles.class,
 		SetupPDFViewer.class, SetupDropbox.class, SetupDone.class }, library = true)
 public class ActivityModule {
 

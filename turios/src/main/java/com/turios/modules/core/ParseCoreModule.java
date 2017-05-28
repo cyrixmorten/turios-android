@@ -1,15 +1,5 @@
 package com.turios.modules.core;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.inject.Inject;
-import javax.inject.Singleton;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.util.Log;
 
@@ -26,7 +16,6 @@ import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.RefreshCallback;
 import com.parse.SaveCallback;
-import com.turios.R;
 import com.turios.dagger.quialifiers.ForApplication;
 import com.turios.modules.Module;
 import com.turios.modules.Module.MODULES;
@@ -35,6 +24,14 @@ import com.turios.modules.core.parse.ParseProfile;
 import com.turios.modules.preferences.ParseCoreModulePreferences;
 import com.turios.persistence.Preferences;
 import com.turios.util.Constants;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
 
 @Singleton
 public class ParseCoreModule {
@@ -90,53 +87,6 @@ public class ParseCoreModule {
 			} catch (JSONException e) {
 				Log.e(TAG, e.getMessage(), e);
 			}
-		}
-	}
-
-	public void pushSMSToSendRelations(final String sender, final String message) {
-		if (parseInstallation != null) {
-			getChannelSendRelation(new FindCallback<ParseObject>() {
-
-				@Override public void done(List<ParseObject> channels,
-						ParseException e) {
-					List<String> channelsArray = new ArrayList<String>();
-					for (ParseObject channel : channels) {
-						channelsArray.add(channel
-								.getString(ParseObjectHelper.Channel.name));
-					}
-					pushSMSToChannel(sender, message, channelsArray);
-				}
-			});
-		}
-	}
-
-	private void pushSMSToChannel(String sender, String message,
-			List<String> channels) {
-
-		Log.d(TAG, "pushSMSToChannel " + sender + " " + message + " "
-				+ channels);
-
-		ParseQuery<ParseInstallation> query = ParseInstallation.getQuery();
-		query.whereEqualTo(ParseObjectHelper.ParseInstallation.owner, parseUser);
-		query.whereNotEqualTo(ParseObjectHelper.objectId,
-				parseInstallation.getObjectId());
-
-		long tenminutes = 60 * 10;
-		try {
-			JSONObject data = new JSONObject();
-			data.put("action", Constants.INTENT_INCOMMING_PARSESMS);
-			data.put(Constants.EXTRA_SENDER, sender);
-			data.put(Constants.EXTRA_MESSAGE, message);
-			data.put(Constants.EXTRA_CHANNELS, new JSONArray(channels));
-
-			ParsePush androidPush = new ParsePush();
-			androidPush.setQuery(query);
-			androidPush.setData(data);
-			androidPush.setExpirationTimeInterval(tenminutes);
-			androidPush.sendInBackground();
-
-		} catch (JSONException e) {
-			Log.e(TAG, e.getMessage(), e);
 		}
 	}
 

@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,11 +58,6 @@
         </FrameLayout>
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/shape_background_darkgrey"
-        android:padding="5dp" />
+    <include android:layout_height="wrap_content" android:layout_width="match_parent" layout="@layout/view_footer" />
 
 </RelativeLayout>

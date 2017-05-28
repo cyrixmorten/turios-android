@@ -1,10 +1,5 @@
 package com.turios.activities;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.inject.Inject;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -16,11 +11,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
-
-import com.crashlytics.android.Crashlytics;
-import com.parse.ParseException;
 import com.turios.R;
 import com.turios.activities.fragments.dialog.DialogFragments;
 import com.turios.activities.fragments.dialog.GenericOkDialogFragment;
@@ -31,7 +21,6 @@ import com.turios.activities.setup.SetupDone;
 import com.turios.activities.setup.SetupDropbox;
 import com.turios.activities.setup.SetupPDFViewer;
 import com.turios.activities.setup.SetupProfiles;
-import com.turios.activities.setup.SetupWelcome;
 import com.turios.activities.setup.WizardHelper;
 import com.turios.activities.util.Orientation;
 import com.turios.dagger.DaggerActivity;
@@ -51,6 +40,14 @@ import com.turios.modules.preferences.ParseCoreModulePreferences;
 import com.turios.persistence.Preferences;
 import com.turios.util.Device;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 
 	private static final String TAG = "SplashScreen";
@@ -59,9 +56,9 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 
 //	private DialogFragment loginDialog;
 
-	@Nullable @Bind(R.id.progressBar1)
+	@Nullable @BindView(R.id.progressBar1)
 	ProgressBar progressBar;
-	@Nullable @Bind(R.id.imgLogo)
+	@Nullable @BindView(R.id.imgLogo)
 	ImageView logo;
 
 	@Inject
@@ -102,7 +99,6 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		Crashlytics.start(this);
 		Log.d(TAG, "onCreate");
 
 		orientation.lockOrientation();
@@ -257,7 +253,7 @@ public class SplashScreen extends DaggerActivity implements ModuleLoadCallback {
 			// Start your app main activity
 
 			if (preferences.isFirstStartUp()) {
-				WizardHelper.buildWizard().add(this, SetupWelcome.class)
+				WizardHelper.buildWizard()
 						.add(this, SetupProfiles.class)
 						.add(this, SetupPDFViewer.class)
 						.add(this, SetupDropbox.class)

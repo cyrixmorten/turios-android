@@ -27,7 +27,7 @@ import java.util.Locale;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -35,13 +35,13 @@ public class SetupPDFViewer extends DaggerActivity {
 
 	private static final String TAG = "SetupPDFViewer";
 
-	@Bind(R.id.setup_list_pdfviewers) LinearLayout listpdfviewers;
-	@Bind(R.id.setup_install_pdfviewer) LinearLayout installpdfviewer;
+	@BindView(R.id.setup_list_pdfviewers) LinearLayout listpdfviewers;
+	@BindView(R.id.setup_install_pdfviewer) LinearLayout installpdfviewer;
 
-	@Bind(R.id.button_continue) Button continue_button;
-	@Bind(R.id.setup_installed_pdfviewers) TextView pdfviewers;
+	@BindView(R.id.button_continue) Button continue_button;
+	@BindView(R.id.setup_installed_pdfviewers) TextView pdfviewers;
 
-	@Bind(R.id.setup_pdfinstall_market) Button market;
+	@BindView(R.id.setup_pdfinstall_market) Button market;
 
 	@Inject ActionBar actionbar;
 	@Inject AccessplansModule accessplansModule;

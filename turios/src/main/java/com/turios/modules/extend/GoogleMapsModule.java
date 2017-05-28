@@ -1,23 +1,5 @@
 package com.turios.modules.extend;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.List;
-import java.util.Locale;
-
-import javax.inject.Inject;
-import javax.inject.Singleton;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.location.Address;
 import android.location.Geocoder;
@@ -29,21 +11,36 @@ import android.util.Log;
 import com.androidmapsextensions.GoogleMap;
 import com.androidmapsextensions.Marker;
 import com.androidmapsextensions.MarkerOptions;
-import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
-import com.turios.R;
 import com.turios.dagger.quialifiers.ForApplication;
-import com.turios.modules.ModulePreferences;
 import com.turios.modules.core.ExpirationCoreModule;
 import com.turios.modules.core.ParseCoreModule;
 import com.turios.modules.data.AddressHolder;
 import com.turios.modules.preferences.GoogleMapsModulePreferences;
 import com.turios.persistence.Preferences;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+import java.util.Locale;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
 
 @Singleton
 public class GoogleMapsModule extends StandardModule {
@@ -122,6 +119,7 @@ public class GoogleMapsModule extends StandardModule {
 	}
 
 	public void setMap(GoogleMap map) {
+		Log.d(TAG, "setMap: " + (map != null));
 		if (mGoogleMap == null) {
 			mGoogleMap = map;
 			mGoogleMap.setMyLocationEnabled(true);
@@ -129,6 +127,7 @@ public class GoogleMapsModule extends StandardModule {
 			mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 		}
 
+		Log.d(TAG, "googleMapsCallback: " + (googleMapsCallback != null));
 		if (googleMapsCallback != null) {
 			googleMapsCallback.mapReady(mGoogleMap);
 		}

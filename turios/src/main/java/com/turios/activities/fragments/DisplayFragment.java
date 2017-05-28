@@ -1,26 +1,10 @@
 package com.turios.activities.fragments;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import java.util.SortedMap;
-import java.util.TreeMap;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
-import javax.inject.Inject;
-
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -40,19 +24,13 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import butterknife.ButterKnife;
 
-import com.dropbox.sync.android.DbxPath;
 import com.google.android.gms.maps.model.LatLng;
 import com.turios.R;
-import com.turios.activities.SettingsActivity;
-import com.turios.activities.Turios;
 import com.turios.activities.TuriosActionBarController;
 import com.turios.activities.fragments.dialog.DialogFragments;
 import com.turios.activities.fragments.dialog.GenericYesNoDialogFragment.GenericYesNoDialogInterface;
@@ -73,7 +51,6 @@ import com.turios.modules.extend.BrowserModule;
 import com.turios.modules.extend.DirectionsModule;
 import com.turios.modules.extend.DropboxModule;
 import com.turios.modules.extend.GoogleMapsModule;
-import com.turios.modules.extend.DropboxModule.DropboxFileDownloaderResultReceiver;
 import com.turios.modules.extend.GoogleMapsModule.FetchAddressCallback;
 import com.turios.modules.extend.HydrantsModule;
 import com.turios.modules.extend.PicklistModule;
@@ -81,6 +58,21 @@ import com.turios.modules.utils.MapUtils;
 import com.turios.persistence.MessagesContentProvider;
 import com.turios.util.Constants;
 import com.turios.util.Device;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+import java.util.SortedMap;
+import java.util.TreeMap;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+import javax.inject.Inject;
+
+import butterknife.ButterKnife;
 
 public class DisplayFragment extends DaggerFragment {
 
@@ -371,7 +363,6 @@ public class DisplayFragment extends DaggerFragment {
 	@Override
 	public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.unbind(this);
 	}
 
 	private OnClickListener ExpandClickListener = new OnClickListener() {

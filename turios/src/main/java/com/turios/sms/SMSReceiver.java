@@ -1,7 +1,5 @@
 package com.turios.sms;
 
-import javax.inject.Inject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +7,6 @@ import android.telephony.SmsMessage;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.parse.ParseException;
 import com.turios.R;
 import com.turios.dagger.DaggerBroadcastReceiver;
 import com.turios.modules.core.DisplayCoreModule;
@@ -17,7 +14,8 @@ import com.turios.modules.core.ParseCoreModule;
 import com.turios.modules.core.ParseCoreModule.ParseLoginCallback;
 import com.turios.modules.extend.BasisModule;
 import com.turios.util.Constants;
-import com.turios.util.Notifications;
+
+import javax.inject.Inject;
 
 public class SMSReceiver extends DaggerBroadcastReceiver {
 
@@ -46,7 +44,7 @@ public class SMSReceiver extends DaggerBroadcastReceiver {
 				SmsMessage smsmsg = SmsMessage
 						.createFromPdu((byte[]) smsextras[i]);
 
-				final String message = smsmsg.getMessageBody().toString();
+				final String message = smsmsg.getMessageBody();
 				final String sender = smsmsg.getOriginatingAddress();
 
 				// strMessage += "SMS from " + strMsgSrc + " : " + strMsgBody;
@@ -61,15 +59,6 @@ public class SMSReceiver extends DaggerBroadcastReceiver {
 						public void success() {
 
 							if (basis.isEnabled()) {
-
-								// send Push notification to all listeners via
-								// Parse
-								parse.pushSMSToSendRelations(sender, message);
-								
-								Intent intent = new Intent();
-//								parse.incrementTurnouts();
-//								display.newMessage(message);
-								
 								// send message to Turios
 								Intent msgIntent = new Intent(
 										Constants.INTENT_INCOMMING_MESSAGE);

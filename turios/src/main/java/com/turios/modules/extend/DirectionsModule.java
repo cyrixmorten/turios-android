@@ -1,14 +1,5 @@
 package com.turios.modules.extend;
 
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeoutException;
-
-import javax.inject.Inject;
-import javax.inject.Singleton;
-
-import org.w3c.dom.Document;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.location.Location;
@@ -22,9 +13,7 @@ import com.androidmapsextensions.PolylineOptions;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
-import com.turios.R;
 import com.turios.dagger.quialifiers.ForApplication;
-import com.turios.modules.ModulePreferences;
 import com.turios.modules.core.ExpirationCoreModule;
 import com.turios.modules.core.LocationsCoreModule;
 import com.turios.modules.core.ParseCoreModule;
@@ -33,6 +22,15 @@ import com.turios.modules.extend.GoogleMapsModule.GoogleMapsCallback;
 import com.turios.modules.preferences.DirectionsModulePreferences;
 import com.turios.modules.utils.GMapV2Direction;
 import com.turios.persistence.Preferences;
+
+import org.w3c.dom.Document;
+
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeoutException;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
 
 @Singleton
 public class DirectionsModule extends StandardModule {
@@ -75,6 +73,7 @@ public class DirectionsModule extends StandardModule {
 		hydrants.disableAllHydrants();
 
 		if (map == null) {
+			Log.d(TAG, "Map null");
 			// wait for the map to be ready before adding hydrants
 			googlemaps.setGoogleMapsCallback(new GoogleMapsCallback() {
 

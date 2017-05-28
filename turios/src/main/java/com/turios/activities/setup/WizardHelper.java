@@ -1,10 +1,10 @@
 package com.turios.activities.setup;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class WizardHelper {
 
@@ -14,7 +14,7 @@ public class WizardHelper {
 	private static WizardHelper instance;
 
 	private WizardHelper() {
-		wizardScreens = new ArrayList<Intent>();
+		wizardScreens = new ArrayList<>();
 		currentScreen = -1;
 	}
 

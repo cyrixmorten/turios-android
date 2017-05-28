@@ -23,8 +23,12 @@ import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.androidmapsextensions.ClusteringSettings;
 import com.androidmapsextensions.GoogleMap;
 import com.google.analytics.tracking.android.EasyTracker;
@@ -32,8 +36,12 @@ import com.google.analytics.tracking.android.GoogleAnalytics;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.parse.GetFileCallback;
 import com.parse.ParseException;
+import com.parse.ParseFile;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ProgressCallback;
 import com.parse.RefreshCallback;
 import com.turios.BuildConfig;
 import com.turios.R;
@@ -41,7 +49,6 @@ import com.turios.activities.display.DisplayPagerAdapter;
 import com.turios.activities.fragments.BrowserFragment;
 import com.turios.activities.fragments.DisplayFragment;
 import com.turios.activities.fragments.GoogleMapFragment;
-import com.turios.activities.fragments.GoogleMapFragment.OnGoogleMapFragmentListener;
 import com.turios.activities.fragments.GoogleMapOptionsFragment;
 import com.turios.activities.fragments.dialog.DialogFragments;
 import com.turios.activities.fragments.dialog.GenericOkDialogFragment.GenericOkDialogInterface;
@@ -70,13 +77,22 @@ import com.turios.modules.extend.PicklistModule;
 import com.turios.persistence.Preferences;
 import com.turios.util.Constants;
 import com.turios.util.Device;
+import com.turios.util.UpdateApp;
 
+import java.io.File;
 import java.util.List;
 
 import javax.inject.Inject;
 
+import bolts.Continuation;
+import bolts.Task;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+import static com.google.android.gms.internal.a.R;
+
 public class Turios extends DaggerActivity implements TabListener,
-		OnGoogleMapFragmentListener,
+		GoogleMapFragment.OnGoogleMapFragmentListener,
         GoogleApiClient.OnConnectionFailedListener,
 		com.turios.activities.listeners.TuriosUICallback, OnPageChangeListener {
 
@@ -124,7 +140,6 @@ public class Turios extends DaggerActivity implements TabListener,
 	private boolean mIsPaused;
 	private DialogFragment mPendingDialog;
 
-	private DisplayFragment DisplayFragment;
 	private GoogleMapFragment mapsFragment;
 	private GoogleMapOptionsFragment mapsOptionsFragment;
 	private BrowserFragment browserFragment;
@@ -186,6 +201,12 @@ public class Turios extends DaggerActivity implements TabListener,
 	@Inject
 	TuriosLocationListener turiosLocationListenerImpl;
 
+	@BindView(R.id.layout_new_update)
+	LinearLayout layoutNewUpdate;
+
+	@BindView(R.id.btn_download)
+	Button downloadButton;
+
 	// @Inject TuriosHydrantsListener hydrantsListener;
 
 	@Override
@@ -198,9 +219,13 @@ public class Turios extends DaggerActivity implements TabListener,
 
 		setContentView(R.layout.activity_turios);
 
+		ButterKnife.bind(this);
+
 		boolean isMultiPane = findViewById(R.id.master) != null;
 		device.setMultiPaneEnabled(isMultiPane);
 		Log.i(TAG, "setMultiPaneEnabled " + isMultiPane);
+
+
 
 		if (savedInstanceState != null) {
 
@@ -267,7 +292,6 @@ public class Turios extends DaggerActivity implements TabListener,
 		registerListeners();
 
 		handleIntent(getIntent());
-
 	}
 
 	private void registerBroadcastReceivers() {
@@ -350,8 +374,66 @@ public class Turios extends DaggerActivity implements TabListener,
 	@Override
 	protected void onPostResume() {
 		showPendingDialog();
+		checkNewUpdate();
 		super.onPostResume();
 	}
+
+	private void checkNewUpdate() {
+
+		new ParseQuery<>("Update").addDescendingOrder("versionNumber").getFirstInBackground()
+				.continueWith(new Continuation<ParseObject, Object>() {
+					@Override
+					public Object then(Task<ParseObject> task) throws Exception {
+						if (task.getResult() != null) {
+							ParseObject update = task.getResult();
+
+							int currentVersion = device.getVersionCode();
+							int nextVersion = update.getInt("versionNumber");
+
+							if (currentVersion < nextVersion) {
+								layoutNewUpdate.setVisibility(View.VISIBLE);
+							}
+						}
+
+						return null;
+					}
+				});
+	}
+
+//	private void downloadAndInstall(Update update) {
+//		ParseFile apkFile = update.getUpdateFile();
+//		if (apkFile == null) {
+//			ToastHelper.toast(this, getString(R.string.file_not_found));
+//			return;
+//		}
+//
+//		final MaterialDialog downloadDialog = new MaterialDialog.Builder(this)
+//				.title(R.string.downloading_update)
+//				.content(R.string.please_wait)
+//				.progress(false, 100, false)
+//				.show();
+//
+//		ProgressCallback progressCallback = new ProgressCallback() {
+//			@Override
+//			public void done(Integer percentDone) {
+//				downloadDialog.setProgress(percentDone);
+//			}
+//		};
+//
+//		apkFile.getFileInBackground(new GetFileCallback() {
+//			@Override
+//			public void done(File file, ParseException e) {
+//				if (e != null) {
+//					return;
+//				}
+//
+//				UpdateApp.fromFile(file);
+//
+//				downloadDialog.dismiss();
+//
+//			}
+//		}, progressCallback);
+//	}
 
 	public void registerListeners() {
 
@@ -554,7 +636,7 @@ public class Turios extends DaggerActivity implements TabListener,
 			}
 		}
 
-		t.commit();
+		t.commitAllowingStateLoss();
 
 	}
 
@@ -587,7 +669,7 @@ public class Turios extends DaggerActivity implements TabListener,
 
 	@Override
 	public void onMapReady(GoogleMap map) {
-		Log.i(TAG, "onMapReady");
+		Log.i(TAG, "onMapReady1 : " + (map != null));
 		if (map != null) {
 			map = mapsFragment.getExtendedMap();
 			map.setClustering(new ClusteringSettings().enabled(false)

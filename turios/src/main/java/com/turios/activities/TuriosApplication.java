@@ -1,17 +1,18 @@
 package com.turios.activities;
 
 import android.content.Intent;
-import android.util.Log;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
+import com.crashlytics.android.Crashlytics;
 import com.parse.Parse;
 import com.parse.ParseACL;
-import com.parse.ParseSession;
 import com.parse.ParseUser;
 import com.turios.BuildConfig;
 import com.turios.dagger.DaggerApplication;
 import com.turios.services.Communicator;
 import com.turios.wakefulservices.UpdateStateListener;
+
+import io.fabric.sdk.android.Fabric;
 
 public class TuriosApplication extends DaggerApplication {
 
@@ -26,6 +27,8 @@ public class TuriosApplication extends DaggerApplication {
 	}
 
 	@Override public void onCreate() {
+
+		Fabric.with(this, new Crashlytics());
 
 		instance = this;
 

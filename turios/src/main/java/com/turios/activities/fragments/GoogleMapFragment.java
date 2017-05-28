@@ -1,13 +1,10 @@
 package com.turios.activities.fragments;
 
-import javax.inject.Inject;
-
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -17,7 +14,6 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.SearchView;
 import android.widget.SearchView.OnQueryTextListener;
-import butterknife.ButterKnife;
 
 import com.androidmapsextensions.GoogleMap;
 import com.google.analytics.tracking.android.Fields;
@@ -36,6 +32,8 @@ import com.turios.modules.extend.GoogleMapsModule;
 import com.turios.modules.extend.HydrantsModule;
 import com.turios.util.Constants;
 
+import javax.inject.Inject;
+
 public class GoogleMapFragment extends DaggerMapFragment implements
 		OnQueryTextListener {
 
@@ -50,9 +48,7 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 		mCallback = null;
 	}
 
-	public static interface OnGoogleMapFragmentListener {
-		void onMapReady(GoogleMap map);
-	}
+
 
 	private AddressHolder mAddressHolder;
 
@@ -74,6 +70,11 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 
 		}
 	}
+
+	public static interface OnGoogleMapFragmentListener {
+		void onMapReady(GoogleMap map);
+	}
+
 
 	@Override public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
@@ -216,10 +217,12 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 		@Override public View onCreateView(LayoutInflater inflater,
 				ViewGroup container, Bundle savedInstanceState) {
 			View view = super.onCreateView(inflater, container, savedInstanceState);
-			ButterKnife.bind(this, view);
+
 			if (mCallback != null) {
 				mCallback.onMapReady(getExtendedMap());
 			}
+
+
 	
 			return view;
 		}
@@ -236,7 +239,6 @@ public class GoogleMapFragment extends DaggerMapFragment implements
 
 	@Override public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.unbind(this);
 	}
 
 	

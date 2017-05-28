@@ -153,7 +153,6 @@ public class BrowserFragment extends DaggerFragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ButterKnife.unbind(this);
     }
 
     public class MyWebViewClient extends WebViewClient {

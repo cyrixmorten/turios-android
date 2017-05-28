@@ -1,7 +1,5 @@
 package com.turios.activities.setup;
 
-import javax.inject.Inject;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
@@ -14,10 +12,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 import com.dropbox.sync.android.DbxAccountManager;
 import com.dropbox.sync.android.DbxPath;
 import com.turios.R;
@@ -27,6 +21,12 @@ import com.turios.modules.extend.DropboxModule;
 import com.turios.modules.extend.DropboxModule.DropboxCallback;
 import com.turios.util.Constants;
 
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class SetupDropbox extends DaggerActivity implements DropboxCallback {
 
 	private static final String TAG = "SetupDropbox";
@@ -35,14 +35,14 @@ public class SetupDropbox extends DaggerActivity implements DropboxCallback {
 
 
 
-	@Bind(R.id.setup_progress) ProgressBar progress;
-	@Bind(R.id.setup_info) TextView info;
-	@Bind(R.id.setup_dropbox_connect) Button connect_button;
-	@Bind(R.id.button_continue) Button continue_button;
-	@Bind(R.id.button_back) Button back_button;
+	@BindView(R.id.setup_progress) ProgressBar progress;
+	@BindView(R.id.setup_info) TextView info;
+	@BindView(R.id.setup_dropbox_connect) Button connect_button;
+	@BindView(R.id.button_continue) Button continue_button;
+	@BindView(R.id.button_back) Button back_button;
 
 
-	@Bind(R.id.progress_loading) ProgressBar loading;
+	@BindView(R.id.progress_loading) ProgressBar loading;
 	@Inject ActionBar actionbar;
 	
 	@Inject PathsCoreModule paths;

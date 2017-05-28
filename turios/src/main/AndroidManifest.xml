@@ -15,11 +15,8 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <!-- <uses-permission android:name="com.turios.permission.MAPS_RECEIVE" /> -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
-    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -32,7 +29,7 @@
 
     <supports-screens android:xlargeScreens="true"></supports-screens>
 
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".activities.TuriosApplication"
@@ -99,15 +96,7 @@
             android:exported="false"
             android:label="Dropbox Sync" />
 
-        <!-- Parse -->
-        <service android:name="com.parse.PushService" />
 
-        <receiver android:name="com.parse.ParseBroadcastReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-            </intent-filter>
-        </receiver>
         <!--
         Setup by the Communicator Service instead 
         <receiver android:name=".sms.ParseSMSReceiver" >
@@ -155,9 +144,9 @@
             android:name=".persistence.MessagesContentProvider"
             android:authorities="com.turios.persistence.messagescontentprovider" />
 
-        <activity
-            android:name=".activities.setup.SetupWelcome"
-            android:theme="@android:style/Theme.Holo.Light" />
+        <!--<activity-->
+            <!--android:name=".activities.setup.SetupWelcome"-->
+            <!--android:theme="@android:style/Theme.Holo.Light" />-->
         <activity
             android:name=".activities.setup.SetupProfiles"
             android:theme="@android:style/Theme.Holo.Light" />

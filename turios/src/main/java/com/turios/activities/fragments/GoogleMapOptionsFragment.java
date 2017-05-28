@@ -1,11 +1,5 @@
 package com.turios.activities.fragments;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
-import javax.inject.Inject;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,7 +9,6 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.LinearLayout;
 import android.widget.ToggleButton;
-import butterknife.ButterKnife;
 
 import com.turios.R;
 import com.turios.dagger.DaggerFragment;
@@ -23,6 +16,14 @@ import com.turios.modules.extend.GoogleMapsModule;
 import com.turios.modules.extend.HydrantsModule;
 import com.turios.modules.extend.HydrantsModule.HydrantOptionsChanged;
 import com.turios.modules.extend.HydrantsModule.HydrantType;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import javax.inject.Inject;
+
+import butterknife.ButterKnife;
 
 public class GoogleMapOptionsFragment extends DaggerFragment implements
 		HydrantOptionsChanged {
@@ -69,6 +70,7 @@ public class GoogleMapOptionsFragment extends DaggerFragment implements
 	}
 
 	@Override public void onViewStateRestored(Bundle savedInstanceState) {
+
 		LinearLayout mapOptionsLayout = ButterKnife.findById(getView(),
 				R.id.map_options);
 
@@ -110,7 +112,6 @@ public class GoogleMapOptionsFragment extends DaggerFragment implements
 
 	@Override public void onDestroyView() {
 		super.onDestroyView();
-		ButterKnife.unbind(this);
 		hydrants.setHydrantsOptionsChangedListener(null);
 	}
 

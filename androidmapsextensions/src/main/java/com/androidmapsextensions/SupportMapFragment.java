@@ -40,6 +40,7 @@ public class SupportMapFragment extends com.google.android.gms.maps.SupportMapFr
 
     private GoogleMap map;
 
+
     public GoogleMap getExtendedMap() {
         if (map == null) {
             com.google.android.gms.maps.GoogleMap realMap = super.getMap();
@@ -47,6 +48,8 @@ public class SupportMapFragment extends com.google.android.gms.maps.SupportMapFr
                 map = ExtendedMapFactory.create(realMap, getActivity());
             }
         }
+
         return map;
     }
+
 }
